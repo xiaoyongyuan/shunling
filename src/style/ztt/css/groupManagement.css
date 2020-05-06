@@ -1,0 +1,11 @@
+.groupManagement {
+  padding: 20px;
+}
+.groupManagement .operationBtn {
+  margin: 0 10px;
+}
+.groupManagement .addGroup {
+  float: right;
+  z-index: 99;
+}
+/*# sourceMappingURL=groupManagement.css.map */

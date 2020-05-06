@@ -1,0 +1,265 @@
+.defendTime {
+  box-sizing: border-box;
+
+  .selected {
+    background: "#32e8fe";
+  }
+
+  #tab {
+    position: relative;
+    margin-left: 50px;
+  }
+
+  .tr:first-of-type::before {
+    content: '星期一';
+    position: absolute;
+    top: 30px;
+    left: -60px;
+    color: #595959;
+  }
+
+  .tr:nth-of-type(2)::before {
+    content: '星期二';
+    position: absolute;
+    top: 80px;
+    left: -60px;
+    color: #595959;
+  }
+
+  .tr:nth-of-type(3)::before {
+    content: '星期三';
+    position: absolute;
+    top: 130px;
+    left: -60px;
+    color: #595959;
+  }
+
+  .tr:nth-of-type(4)::before {
+    content: '星期四';
+    position: absolute;
+    top: 180px;
+    left: -60px;
+    color: #595959;
+  }
+
+  .tr:nth-of-type(5)::before {
+    content: '星期五';
+    position: absolute;
+    top: 230px;
+    left: -60px;
+    color: #595959;
+  }
+
+  .tr:nth-of-type(6)::before {
+    content: '星期六';
+    position: absolute;
+    top: 280px;
+    left: -60px;
+    color: #595959;
+  }
+
+  .tr:last-of-type::before {
+    content: '星期日';
+    position: absolute;
+    top: 330px;
+    left: -60px;
+    color: #595959;
+  }
+
+
+  .tr :first-of-type {
+    .td::before {
+      content: '1';
+      position: absolute;
+      left: 0;
+      top: -10
+    }
+  }
+
+  .td {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    -webkit-user-select: none;
+
+    -moz-user-select: none;
+
+    -ms-user-select: none;
+
+    user-select: none;
+    // border-right: 1px solid #000;
+    border-top: 1px solid #cfcfcf;
+    border-bottom: 1px solid #cfcfcf;
+  }
+
+  .td:first-of-type {
+    border-left: 1px solid #d7d7d7;
+
+  }
+
+  .td:nth-of-type(48) {
+    border-right: 1px solid #d7d7d7;
+
+  }
+
+  .td:nth-of-type(49) {
+    border-top: none;
+    border-bottom: none;
+  }
+
+
+  .td:nth-of-type(odd)::before {
+    content: "";
+    display: block;
+    width: 1px;
+    background: #d7d7d7;
+    height: 10px;
+    position: absolute;
+    top: -10px;
+    left: -1px;
+  }
+
+  .td:nth-of-type(1)::after {
+    content: "0";
+    position: absolute;
+    top: -28px;
+    left: -5px;
+    color: #595959;
+  }
+
+  .td:nth-of-type(5)::after {
+    content: "2";
+    position: absolute;
+    top: -28px;
+    left: -5px;
+    color: #595959;
+  }
+
+  .td:nth-of-type(9)::after {
+    content: "4";
+    position: absolute;
+    top: -28px;
+    left: -5px;
+    color: #595959;
+  }
+
+  .td:nth-of-type(13)::after {
+    content: "6";
+    position: absolute;
+    top: -28px;
+    left: -5px;
+    color: #595959;
+  }
+
+  .td:nth-of-type(17)::after {
+    content: "8";
+    position: absolute;
+    top: -28px;
+    left: -5px;
+    color: #595959;
+  }
+
+  .td:nth-of-type(21)::after {
+    content: "10";
+    position: absolute;
+    top: -28px;
+    left: -10px;
+    color: #595959;
+  }
+
+  .td:nth-of-type(25)::after {
+    content: "12";
+    position: absolute;
+    top: -28px;
+    left: -10px;
+    color: #595959
+  }
+
+  .td:nth-of-type(29)::after {
+    content: "14";
+    position: absolute;
+    top: -28px;
+    left: -10px;
+    color: #595959;
+  }
+
+  .td:nth-of-type(33)::after {
+    content: "16";
+    position: absolute;
+    top: -28px;
+    left: -10px;
+    color: #595959;
+  }
+
+  .td:nth-of-type(37)::after {
+    content: "18";
+    position: absolute;
+    top: -28px;
+    left: -10px;
+    color: #595959;
+  }
+
+  .td:nth-of-type(41)::after {
+    content: "20";
+    position: absolute;
+    top: -28px;
+    left: -10px;
+    color: #595959;
+  }
+
+  .td:nth-of-type(45)::after {
+    content: "22";
+    position: absolute;
+    top: -28px;
+    left: -10px;
+    color: #595959;
+  }
+
+  .td:nth-of-type(49)::after {
+    content: "24";
+    position: absolute;
+    top: -26px;
+    left: -10px;
+    color: #595959;
+  }
+
+  .td:nth-of-type(49)::before {
+    content: none;
+  }
+
+
+  .td:nth-of-type(even)::before {
+    content: "";
+    display: block;
+    width: 1px;
+    background: #d7d7d7;
+    position: absolute;
+    height: 6px;
+    top: -6px;
+    left: -1px;
+  }
+
+  .td:nth-of-type(48)::after {
+    content: "";
+    display: block;
+    width: 1px;
+    background: #d7d7d7;
+    position: absolute;
+    height: 10px;
+    top: -10px;
+    left: 12px;
+  }
+
+  .deleteWrap {
+    margin-top: 2px;
+    .delete {
+      margin-top: 20px;
+      display: block;
+      width: 30px;
+      height: 30px;
+      padding: 5px;
+      color: #006CFF;
+    }
+  }
+
+}

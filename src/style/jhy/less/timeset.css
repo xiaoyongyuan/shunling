@@ -1,0 +1,16 @@
+.timeset {
+  padding: 30px;
+}
+.timeset .ant-form-item {
+  margin-bottom: 0;
+}
+.timeset .optwrap {
+  width: 100%;
+  text-align: center;
+}
+.timeset .optwrap .cancle {
+  margin-left: 50px;
+  background: #a4a7b1;
+  color: #fff;
+}
+/*# sourceMappingURL=timeset.css.map */

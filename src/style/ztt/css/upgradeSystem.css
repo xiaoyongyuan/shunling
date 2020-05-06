@@ -1,0 +1,22 @@
+.upgradeSystem {
+  padding: 36px 50px;
+  display: flex;
+  align-items: center;
+}
+.upgradeSystem .ant-upload-select-picture-card {
+  width: 260px;
+  height: 70px;
+}
+.upgradeSystem .upgrdeTitle {
+  padding: 0 20px;
+  color: #6D727E;
+}
+.upgradeSystem .upLoadCon .upBtn {
+  width: 130px;
+  height: 30px;
+  background-color: #4B96FC;
+  color: #fff;
+  border: none;
+  margin: 20px 0 0 120px;
+}
+/*# sourceMappingURL=upgradeSystem.css.map */

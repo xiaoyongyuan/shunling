@@ -1,0 +1,69 @@
+.normal{
+  color: #0ab00d;
+}
+.alarm{
+  color: #f5222d;
+}
+.warning{
+  color: #F4BD00;
+}
+.untreated{
+  color: #0b5eec;
+}
+.historyModel{
+  .historyTitle{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    padding: 5px 0;
+    font-weight: bolder;
+    span{
+      padding: 0 5%;
+    }
+  }
+  .historyTime{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5px 0;
+  }
+}
+.rollcallhistory{
+  padding: 10px;
+  .gutter-example{
+    padding-top: 20px;
+    .empty{
+      width: 100%;
+      text-align: center;
+      padding-top: 30px;
+    }
+    .gutter-box{
+        display: flex;
+        border: 1px solid #C0C0C0;
+        border-radius: 4px;
+        box-shadow: 3px 3px 5px #c3c1c1;
+        .rollHist-img{
+          width: 45%;
+          height: 140px;
+          margin:2%;
+          img{
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .rollHist-con{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          .roll-context{
+            padding: 6% 0;
+            font-size: 15px;
+          }
+        }
+      }
+  }
+  .rollPage{
+    padding: 20px 0;
+    text-align: center;
+  }
+}

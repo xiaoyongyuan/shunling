@@ -1,0 +1,122 @@
+.ant-notification{
+  top:72%!important;
+  .ant-notification-notice{
+    padding: 16px 20px!important;
+    .newAlarm{
+      display: flex;
+      flex-direction: column;
+      .newImg{
+        width: 100%;
+        height: 43vh;
+      }
+      .newContext{
+        padding: 2% 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    }
+  }
+}
+.ant-badge{
+  font-size: 28px;
+}
+.ant-badge-multiple-words{
+  padding: 0 4px;
+}
+.backout{
+  padding: 0 8px;
+  p{
+    padding:8px 0;
+    cursor: pointer;
+  }
+  p:hover{
+    color: #0b5eec;
+  }
+}
+.LayerHeader{
+  font-family:'Microsoft YaHei';
+  color: #fff;
+  width: 100%;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  .ant-select-selection{
+    background: #213C95;
+    border: none;
+    color: #fff;
+  }
+  .ant-select-arrow{
+    color: #fff;
+  }
+  .headerLeft{
+    display: flex;
+    align-items: center;
+    .logo{
+      width: 155px;
+      height: 44px;
+      background: url("../../../style/imgs/logoCricle.png");
+      background-size: 100% 100%;
+    }
+    .secant{
+      width: 2px;
+      height: 32px;
+      background: #132356;
+      margin: 0 22px 0 11px;
+    }
+    .logo-title{
+      font-size: 27px;
+      letter-spacing:2px;//字体间隙
+    }
+  }
+  .headerRight{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .alarmNum{
+      display: flex;
+      align-items: center;
+      font-weight: bolder;
+      padding-right: 50px;
+      .alarmfont{
+        color: #f5222d;
+      }
+      .alarMargin{
+        margin-right: 20px;
+      }
+      .equImg6 {
+        display: inline-block;
+        width: 36px;
+        height: 36px;
+        background: url("../../../style/ztt/imgs/todays.png") no-repeat;
+        background-size: 100% 100%;
+        cursor: pointer;
+      }
+      .equImg7{
+        display: inline-block;
+        width: 36px;
+        height: 36px;
+        background: url("../../../style/ztt/imgs/disable.png") no-repeat;
+        background-size: 100% 100%;
+        cursor: pointer;
+      }
+    }
+    .alarmRight{
+      display: flex;
+      align-items: center;
+      .header-right{
+        width: 36px;
+        height: 36px;
+        background: url("../../../style/imgs/shield.png") no-repeat;
+        background-size: 100% 100%;
+        margin-right: 14px;
+      }
+      .signout{
+        padding-left: 20px;
+        cursor: pointer;
+      }
+    }
+
+  }
+
+}

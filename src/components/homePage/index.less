@@ -1,0 +1,867 @@
+.homePage {
+  .unwork{
+    color:#B8B5BC!important;
+  }
+  .polieShow{
+    color:red!important;
+  }
+  .polieFlase{
+    color: #ffc514!important;
+  }
+  ::-webkit-scrollbar {
+    //设置整个滚动条宽高
+    width: 6px;
+    height: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    //设置滑块
+    width: 6px;
+    height: 6px;
+    background-color: rgba(255, 255, 255, 0); //设置背景透明
+    border-radius: 3px;
+  }
+
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0); //设置背景透明
+  }
+
+  display: flex;
+  flex-direction: column;
+  -moz-user-select: none;
+  /*火狐*/
+  -webkit-user-select: none;
+  /*webkit浏览器*/
+  -ms-user-select: none;
+  /*IE10*/
+  -khtml-user-select: none;
+  /*早期浏览器*/
+  user-select: none;
+
+  .leaflet-bar,
+  .leaflet-control {
+    display: none;
+  }
+
+  .unhanle {
+    background-color: #006FE3;
+  }
+
+  .policebg {
+    background-color: #FF7200;
+  }
+
+  .videBor {
+    background: #ff7200;
+  }
+
+  .falsePolicebg {
+    background-color: #B28750;
+  }
+
+  .equNum {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+
+    .equ1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      width: 22%;
+      height: 74px;
+      background: #fff;
+      color: #F83434;
+
+      .equImg8 {
+        display: inline-block;
+        width: 46px;
+        height: 46px;
+        background: url("../../style/ztt/imgs/todayAlarm.png") no-repeat;
+        background-size: 100% 100%;
+      }
+
+      .equContext {
+        display: flex;
+        flex-direction: column;
+        padding-left: 28px;
+
+        .equBer {
+          font-size: 22px;
+          padding-right: 2px;
+        }
+
+        .equipName {
+          font-weight: bold;
+          font-size: 15px;
+          padding-bottom: 4px;
+        }
+
+        .equipTotal-today {
+          letter-spacing: 1px;
+        }
+      }
+    }
+
+    .equ {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      width: 19%;
+      height: 74px;
+      background: #fff;
+
+      .equColor1 {
+        color: #375BD1;
+      }
+
+      .equColor2 {
+        color: #37D142;
+      }
+
+      .equColor3 {
+        color: #656A7B;
+      }
+
+      .equColor4 {
+        color: #006CFF;
+      }
+
+      .equColor5 {
+        color: #FF7200;
+      }
+
+      .equContext {
+        display: flex;
+        flex-direction: column;
+        padding-left: 26px;
+
+        .equBer {
+          font-size: 22px;
+          padding-right: 2px;
+        }
+
+        .equipName {
+          font-size: 15px;
+          font-weight: bolder;
+          padding-bottom: 4px;
+        }
+
+        .equipTotal {
+          letter-spacing: 1px;
+        }
+
+        .equipTotal-Handle {
+          color: #1877FF;
+          letter-spacing: 1px;
+        }
+
+        .equipTotal-UHandle {
+          letter-spacing: 1px;
+        }
+      }
+
+      .equImg1 {
+        display: inline-block;
+        width: 46px;
+        height: 46px;
+        background: url("../../style/ztt/imgs/Total.png") no-repeat;
+        background-size: 100% 100%;
+      }
+
+      .equImg2 {
+        display: inline-block;
+        width: 46px;
+        height: 46px;
+        background: url("../../style/ztt/imgs/equipment.png") no-repeat;
+        background-size: 100% 100%;
+      }
+
+      .equImg3 {
+        display: inline-block;
+        width: 46px;
+        height: 46px;
+        background: url("../../style/ztt/imgs/offline.png") no-repeat;
+        background-size: 100% 100%;
+      }
+
+      .equImg4 {
+        display: inline-block;
+        width: 46px;
+        height: 46px;
+        background: url("../../style/ztt/imgs/processed.png") no-repeat;
+        background-size: 100% 100%;
+      }
+
+      .equImg5 {
+        display: inline-block;
+        width: 46px;
+        height: 46px;
+        background: url("../../style/ztt/imgs/unhandled.png") no-repeat;
+        background-size: 100% 100%;
+      }
+    }
+  }
+
+  .computerRoom {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background-color: #fff;
+    min-height:54vh;
+    .cameraList {
+      width: 78%;
+      .sketchMap{
+        display: flex;
+        position: relative;
+        .roadImg{
+          width:80px;
+          height: 310px;
+          background: url("../../style/ztt/imgs/road.png") no-repeat;
+          background-size: 100% 100%;
+          margin-top:40px;
+          margin-left: 40px;
+        }
+        .roadName{
+          position: absolute;
+          top: 38%;
+          left: 24%;
+        }
+      }
+      .cameraList-title{
+        text-align: center;
+        font-size: 20px;
+        padding-top: 20px;
+        color: #000;
+      }
+      .cameraTitle {
+        display: flex;
+        align-items: center;
+        padding-top: 10px;
+        padding-left: 10px;
+        .cameraLogin {
+          display: inline-block;
+          width: 17px;
+          height: 20px;
+          background: url("../../style/ztt/imgs/cameraBg.png") no-repeat;
+          background-size: 100% 100%;
+        }
+
+        .cameraFont {
+          padding-left: 10px;
+          color: #1A3791;
+        }
+      }
+
+      .videstyle {
+        margin-top: 16px;
+
+        .nodata {
+          width: 100%;
+          text-align: center;
+        }
+
+        .nodata img {
+          width: 70px;
+          height: 70px;
+        }
+
+        .videoMore .videoImg {
+          width: 100%;
+          height: 100%;
+          min-height: 14vh;
+        }
+
+        .videoMore {
+          .videoChange {
+            animation: heartbeat 1.5s infinite;
+            -webkit-animation: heartbeat 1.5s infinite;
+            position: relative;
+            filter: drop-shadow(0px 0px 20px rgb(255, 20, 20));
+            transform: rotate(45deg);
+
+          }
+
+          @keyframes heartbeat {
+            0% {
+              transform: scale(0.9, 0.9);
+              opacity: 1;
+            }
+            25% {
+              transform: scale(1, 1);
+              opacity: 0.8;
+            }
+            100% {
+              transform: scale(0.9, 0.9);
+              opacity: 1;
+            }
+          }
+
+          .borderBot .videoImg {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+          }
+
+          .borderBot {
+            position: relative;
+            min-height: 18vh;
+            max-height: 36vh;
+            margin: 10px 0;
+
+            .videoBtn {
+              width: 16%;
+              position: absolute;
+              top: 36%;
+              left: 40%;
+              cursor: pointer;
+            }
+
+            .broadcastBott {
+              position: absolute;
+              left: 0;
+              bottom: 0;
+              width: 100%;
+              height: 32px;
+              background-color: rgba(20, 39, 69, 0.9);
+              font-size: 14px;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              padding-left: 10px;
+
+              .dateil {
+                color: #ff7200;
+                padding-right: 10px;
+                cursor: pointer;
+              }
+
+              .broCircle {
+                display: inline-block;
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                background-color: #ff7200;
+              }
+
+              .broFont {
+                color: #fff;
+                padding-left: 8px;
+              }
+            }
+          }
+        }
+
+      }
+    }
+
+    .computerRoom-context {
+      width: 100%;
+      background: #fff;
+      height: 61vh;
+
+      .RoomStatusLeft {
+        width: 20%;
+      }
+
+      .computerRoomStatus {
+        display: flex;
+        flex-direction: row;
+
+        .RoomStatusLeft {
+          .roomAlarm {
+            display: flex;
+            align-items: center;
+            margin: 28px 55px;
+
+            .status1 {
+              color: #ff7200;
+              margin-left: 12px;
+            }
+
+            .status2 {
+              color: #006cff;
+              margin-left: 12px;
+            }
+
+            .status3 {
+              color: #686d7e;
+              margin-left: 12px;
+            }
+
+            .statusImg1 {
+              display: inline-block;
+              width: 26px;
+              height: 26px;
+              background: url("../../style/ztt/imgs/alarmStatus.png") no-repeat;
+              background-size: 100% 100%;
+            }
+
+            .statusImg2 {
+              display: inline-block;
+              width: 26px;
+              height: 26px;
+              background: url("../../style/ztt/imgs/noStatus.png") no-repeat;
+              background-size: 100% 100%;
+            }
+
+            .statusImg3 {
+              display: inline-block;
+              width: 26px;
+              height: 26px;
+              background: url("../../style/ztt/imgs/offStatus.png") no-repeat;
+              background-size: 100% 100%;
+            }
+          }
+        }
+
+        .computer {
+          width: 65%;
+        }
+      }
+
+      .computerRoom-title {
+        color: #213c95;
+        font-size: 18px;
+        margin: 15px 55px;
+      }
+    }
+
+    .computerRoom-camera {
+      width: 22%;
+      background-color: #f0f2f5;
+      box-shadow: 1px 2px 10px rgba(0, 0, 0, .1);
+      height: 54vh;
+      position: absolute;
+      right: 0;
+      top:0;
+      animation:myfirst 3s linear;
+      @keyframes myfirst{
+        0% {right:-20%;}
+        50%{right:-10%}
+        80%{right:-2%}
+        100%{right:0}
+      }
+      .video-camera {
+        display: flex;
+        justify-content: space-between;
+        height: 50px;
+        background: #fff;
+        margin-bottom: 4px;
+
+        .close {
+          margin: 5px 5px;
+          font-size: 20px;
+          cursor: pointer;
+          color: #006fe3;
+        }
+
+        .videoCameraName {
+          display: flex;
+          align-items: center;
+
+          .videoImg {
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            background: url("../../style/ztt/imgs/alarmStatus.png") no-repeat;
+            background-size: 100% 100%;
+            margin-left: 20px;
+          }
+
+          .videoName {
+            color: #FF7E1D;
+            margin-left: 8px;
+            font-size: 15px;
+          }
+        }
+      }
+
+      .eqiIp {
+        display: flex;
+        flex-direction: row;
+        height: 70px;
+        margin-bottom: 2px;
+        .eqiIp-context1{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          width: 100%;
+          line-height: 26px;
+          background: #fff;
+          color: #2E4699;
+          padding-left: 20px;
+          font-size: 15px;
+        }
+        .eqiIp-context {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          width: 45%;
+          line-height: 26px;
+          background: #fff;
+          color: #2E4699;
+          padding-left: 20px;
+          font-size: 15px;
+        }
+
+        .eqiIp-UHanld:nth-child(1) {
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+
+        .eqiIp-UHanld {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          width: 55%;
+          line-height: 26px;
+          background: #fff;
+          margin-left: 2px;
+          padding-left: 15px;
+          color: #2E4699;
+          font-size: 15px;
+        }
+      }
+
+      /*.fortification {
+        height: 135px;
+        background: #fff;
+        text-align: center;
+        margin-bottom: 4px;
+
+        .fortification-title {
+          display: flex;
+          align-items: center;
+          padding: 8px 0;
+
+          .videoImg {
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            background: url("../../style/ztt/imgs/alarmStatus.png") no-repeat;
+            background-size: 100% 100%;
+            margin-left: 20px;
+          }
+
+          .videoName {
+            color: #FF7E1D;
+            margin-left: 8px;
+            font-size: 15px;
+          }
+        }
+
+        .defended {
+          display: flex;
+          justify-content: center;
+
+          .defended-title {
+            width: 30%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+            .defended-name {
+              text-align: center;
+            }
+
+            .defendedBorder1 {
+              display: inline-block;
+              height: 3px;
+              margin: 4px 0;
+              cursor: pointer;
+            }
+
+            .defendedBorder2 {
+              display: inline-block;
+              height: 3px;
+              margin: 4px 0;
+              cursor: pointer;
+            }
+
+            .defendedBorder1bg {
+              background-color: #006CFF;
+            }
+
+            .defendedBorder1Color {
+              color: #006CFF;
+            }
+
+            .defendedBorder2bg {
+              background-color: #D3D3D3;
+            }
+
+            .defendedBorder2Color {
+              color: #D3D3D3;
+            }
+          }
+        }
+
+        .defendedBtn {
+          width: 40%;
+          height: 30px;
+          text-align: center;
+          border: none;
+          background-color: #006CFF;
+          color: #fff;
+          margin: 10px 0;
+          font-size: 14px;
+          cursor: pointer;
+        }
+
+        .defendedBtn1 {
+          width: 40%;
+          height: 30px;
+          text-align: center;
+          border: none;
+          background-color: #FF7200;
+          color: #fff;
+          margin: 10px 0;
+          font-size: 14px;
+          cursor: pointer;
+        }
+      }*/
+
+      .lastAlarm {
+        background-color: #fff;
+        padding: 18px 0;
+        height: 34.5vh;
+
+        .alarm-title {
+          display: flex;
+          align-items: center;
+
+          .videoImg {
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            background: url("../../style/ztt/imgs/alarmStatus.png") no-repeat;
+            background-size: 100% 100%;
+            margin-left: 20px;
+          }
+
+          .videoName {
+            color: #FF7E1D;
+            margin-left: 8px;
+            font-size: 15px;
+          }
+        }
+
+        .alarmImg {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          .alarmVideo video {
+            width: 100%;
+            height: 13vh;
+            background: #7f7f7f;
+          }
+
+          .alarmVideo img {
+            height: 12vh;
+          }
+
+          .alarmVideo {
+            width: 63%;
+            margin: 10px 0;
+            position: relative;
+            height: 12vh;
+            border: 1px solid #d3d3d3;
+
+            .alarmVideoBtn {
+              position: absolute;
+              top: 34%;
+              left: 42%;
+              width: 20%;
+              cursor: pointer;
+            }
+
+            .alarmVideoBottom {
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              width: 100%;
+              height: 32px;
+              background-color: rgba(20, 39, 69, 0.8);
+              display: flex;
+              align-items: center;
+
+              .alarmVideoCircle {
+                display: inline-block;
+                width: 10px;
+                height: 10px;
+                background-color: #FF7200;
+                border-radius: 50%;
+                margin: 0 14px;
+              }
+
+              .alarmVideoName {
+                color: #fff;
+                font-size: 14px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .nodata {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+  }
+
+  .alarminfor {
+    margin: 12px 0 15px 0;
+
+    .gutter-box {
+      cursor: pointer;
+    }
+
+    .swiper-container {
+      margin-top: 10px;
+      position: relative;
+
+      .morePolice {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 999;
+        background: #006CFF;
+        color: #fff;
+        padding: 1% 1%;
+
+        .policeMore {
+          padding: 20% 0;
+        }
+      }
+
+      .swiper-slide {
+        position: relative;
+        min-height: 14vh;
+        max-height: 18vh;
+        border: 1px solid #d0c9c9;
+        background: #EEEEEE;
+        cursor: pointer;
+
+        .alarmVideoBtn {
+          position: absolute;
+          top: 34%;
+          left: 42%;
+          width: 16%;
+          cursor: pointer;
+        }
+
+        .policeStatus {
+          display: inline-block;
+          padding: 5px 10px;
+          color: #fff;
+          font-size: 13px;
+          border-bottom-right-radius: 20px;
+          border-top-right-radius: 20px;
+          position: absolute;
+          left: 0;
+          bottom: 70%;
+
+          .policeStatusCicle {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: #fff;
+            margin-right: 5px;
+          }
+        }
+
+        .alarmTitle {
+          position: absolute;
+          right: 0;
+          top: 16%;
+          display: inline-block;
+          padding: 4px 8px;
+          color: #fff;
+          background-color: rgba(10, 51, 73, 0.8);
+          border-radius: 20px;
+          font-size: 13px;
+
+          .alarminforCirle {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            background-color: #ff7200;
+            border-radius: 50%;
+          }
+
+          .policeTimes {
+            padding-left: 4px;
+          }
+        }
+
+        .alarminforBg {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          height: 28px;
+          background-color: rgba(20, 39, 69, 0.9);
+          display: flex;
+          align-items: center;
+
+          .alarminforFont {
+            padding-left: 10px;
+            color: #fff;
+            font-size: 14px;
+          }
+        }
+      }
+
+      .swiper-slide img {
+        min-height: 14vh;
+        max-height: 18vh;
+      }
+    }
+
+    @media screen and (max-width: 1600px) {
+      .computerRoom-context {
+        height: 85.5vh !important;
+      }
+
+      .RoomStatusLeft {
+        width: 24% !important;
+      }
+
+      .computer {
+        width: 62% !important;
+      }
+
+      .computerRoom-camera {
+        height: 85vh !important;
+      }
+
+      .lastAlarm {
+        height: 42vh !important;
+      }
+
+      .policeMore {
+        padding: 8% 0 !important;
+        font-size: 10px;
+      }
+
+      .morePolice {
+        padding: 0.5% 1% !important;
+      }
+
+      .iconRight {
+        font-size: 10px;
+      }
+    }
+  }
+}

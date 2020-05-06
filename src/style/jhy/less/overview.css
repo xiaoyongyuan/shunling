@@ -1,0 +1,162 @@
+.overview {
+  height: 100%;
+  background: #f8f8f8;
+  padding: 30px;
+}
+.overview .elli {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.overview .vjcenter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+.overview .ant-card-head {
+  border: 0;
+}
+.overview .ant-descriptions .ant-descriptions-item-label,
+.overview .ant-descriptions .ant-descriptions-item-content {
+  padding: 8px 12px;
+}
+.overview .ant-card-head-title {
+  font-size: 20px;
+}
+.overview .ant-descriptions.bordered .ant-descriptions-item-label {
+  background-color: transparent;
+}
+.overview .cpu::before,
+.overview .physics::before,
+.overview .disk::before,
+.overview .ossys::before,
+.overview .funset::before {
+  content: '';
+  width: 16px;
+  height: 4px;
+  background: #006cff;
+  position: absolute;
+  left: 0px;
+  top: 25px;
+}
+.overview .dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+.overview .topwrap {
+  height: 38%;
+}
+.overview .topwrap .cpu .desc:first-of-type {
+  color: #006cff;
+  margin-top: 50px;
+}
+.overview .topwrap .cpu .desc:first-of-type .bluedot {
+  background: #006cff;
+}
+.overview .topwrap .cpu .desc:last-of-type {
+  color: #dcdbe0;
+  margin-top: 10px;
+}
+.overview .topwrap .cpu .desc:last-of-type .graydot {
+  background: #dcdbe0;
+}
+.overview .topwrap .physics .desc:first-of-type,
+.overview .topwrap .disk .desc:first-of-type {
+  color: #006cff;
+  margin-top: 40px;
+}
+.overview .topwrap .physics .desc:first-of-type .bluedot,
+.overview .topwrap .disk .desc:first-of-type .bluedot {
+  background: #006cff;
+}
+.overview .topwrap .physics .desc:nth-of-type(2),
+.overview .topwrap .disk .desc:nth-of-type(2) {
+  color: #ff7200;
+  margin-top: 10px;
+}
+.overview .topwrap .physics .desc:nth-of-type(2) .orangedot,
+.overview .topwrap .disk .desc:nth-of-type(2) .orangedot {
+  background: #ff7200;
+}
+.overview .topwrap .physics .desc:last-of-type,
+.overview .topwrap .disk .desc:last-of-type {
+  color: #32e8fe;
+  margin-top: 10px;
+}
+.overview .topwrap .physics .desc:last-of-type .lightbluedot,
+.overview .topwrap .disk .desc:last-of-type .lightbluedot {
+  background: #32e8fe;
+}
+.overview .midwrap {
+  margin-top: 20px;
+  height: 20%;
+}
+.overview .midwrap .ossys .cpuval {
+  width: 40%;
+  margin-left: 30px;
+}
+.overview .midwrap .ossys .cpuval .ant-progress-outer {
+  padding-right: 0;
+}
+.overview .midwrap .ossys .cpuval .ant-progress-inner {
+  width: 100%;
+  background: #dcdbe0;
+}
+.overview .midwrap .ossys .cpuval .ant-progress-inner .ant-progress-bg {
+  background: #006cff;
+  height: 28px !important;
+}
+.overview .midwrap .ossys .cpuval .ant-progress-text {
+  position: absolute;
+  left: 35%;
+  top: 25%;
+}
+.overview .midwrap .ossys .syslabel {
+  display: inline-block;
+  font-size: 16px;
+  color: #2c459a;
+  text-align: left;
+}
+.overview .midwrap .ossys .prog {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 15px;
+  text-align: center;
+  color: #fff;
+  margin-left: 20px;
+  background: #006cff;
+  width: 40%;
+  position: relative;
+}
+.overview .botwrap .funset .alarmLabel {
+  padding: 5px 10px;
+  border-radius: 2px;
+  background: #f3f3f5;
+  color: #2c459a;
+}
+.overview .botwrap .funset .alarmSound {
+  margin-left: 20px;
+}
+.overview .botwrap .funset .ant-switch-checked {
+  background-color: #006cff;
+}
+.overview .botwrap .ant-list-split .ant-list-item {
+  border: 1px solid #f0f0f0;
+  margin-top: 5px;
+}
+.overview .botwrap .ant-list-split .ant-list-item .ant-radio-wrapper {
+  width: 100%;
+  position: relative;
+}
+.overview .botwrap .ant-list-split .ant-list-item .ant-radio-wrapper .ant-radio {
+  position: absolute;
+  right: 0;
+  top: 4px;
+}
+/*# sourceMappingURL=overview.css.map */

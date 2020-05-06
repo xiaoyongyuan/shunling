@@ -1,0 +1,207 @@
+.homePageModel {
+  display: flex;
+  flex-direction: row;
+  padding-top: 30px;
+}
+.homePageModel .homePageModelLeft {
+  border: 2px solid #EEEEEE;
+  margin-right: 10px;
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.homePageModel .homePageModelLeft .homeageImg {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.homePageModel .homePageModelLeft .homeageImg .homeImg {
+  width: 400px;
+  margin-top: 2px;
+  height: 300px;
+  position: relative;
+}
+.homePageModel .homePageModelLeft .homeageImg .homeImg #homeCanvas {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #eeeeee;
+}
+.homePageModel .homePageModelLeft .homeageImg .homeImg .nodata {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 34%;
+  left: 30%;
+}
+.homePageModel .homePageModelLeft .homeageImg .homeImg video {
+  width: 98%;
+  height: 100%;
+  background-color: #142745;
+  margin-left: 10px;
+}
+.homePageModel .homePageModelLeft .nextHome {
+  display: flex;
+  float: right;
+  margin: 9px 8px;
+}
+.homePageModel .homePageModelLeft .nextHome .nextUp {
+  color: #B4B4B4;
+  padding: 0 4px;
+}
+.homePageModel .homePageModelLeft .nextHome .arrLeft {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  background-color: #B3B3B3;
+  border-radius: 50%;
+  margin: 0 8px;
+  cursor: pointer;
+}
+.homePageModel .homePageModelLeft .nextHome .arrLeft .cicrle-icon {
+  color: #fff;
+}
+.homePageModel .homePageModelLeft .nextHome .arrRight {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  background-color: #B3B3B3;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.homePageModel .homePageModelLeft .nextHome .arrRight .cicrle-icon {
+  color: #fff;
+}
+.homePageModel .homePageModelRight {
+  width: 480px;
+}
+.homePageModel .homePageModelRight .sector {
+  color: #262d8d;
+  padding: 4px 8px;
+  margin: 0 4px;
+  border-radius: 30px;
+}
+.homePageModel .homePageModelRight .deviceContext {
+  padding: 10px;
+  border: 2px solid #EEEEEE;
+}
+.homePageModel .homePageModelRight .deviceContext .devicetitle {
+  display: flex;
+  align-items: center;
+}
+.homePageModel .homePageModelRight .deviceContext .devicetitle .deviceBg {
+  display: inline-block;
+  width: 18px;
+  height: 16px;
+  background: url("../../style/ztt/imgs/alarmInfoBg.png") no-repeat;
+  background-size: 100% 100%;
+}
+.homePageModel .homePageModelRight .deviceContext .devicetitle .deviceFont {
+  color: #2c459a;
+}
+.homePageModel .homePageModelRight .deviceContext .sectorBtn {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  line-height: 14px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-left: 8px;
+}
+.homePageModel .homePageModelRight .deviceContext .sectorBtn .cicrle-icon {
+  color: #056BDD;
+  font-size: 10px;
+}
+.homePageModel .homePageModelRight .deviceContext .typePolice {
+  display: flex;
+  justify-content: space-between;
+}
+.homePageModel .homePageModelRight .deviceContext .typePolice span:nth-child(1) {
+  padding-left: 8px;
+}
+.homePageModel .homePageModelRight .deviceContext .typePolice span:nth-child(3) {
+  padding-right: 30px;
+}
+.homePageModel .homePageModelRight .deviceContext .nameDevice {
+  width: 100%;
+  margin: 8px 0;
+  padding: 5px 0;
+  background: #F3F3F5;
+  color: #262D8D;
+  border: 1px solid #E4E4E6;
+}
+.homePageModel .homePageModelRight .deviceContext .nameDevice .manAlarm {
+  border-right: 1px solid #dedee2;
+  border-left: 1px solid #dedee2;
+  padding: 0 33px;
+  color: #32419C;
+}
+.homePageModel .homePageModelRight .deviceContext .nameDevice .carBg {
+  color: #C0C0C2;
+}
+.homePageModel .homePageModelRight .deviceContext .nameDevice .equName {
+  display: inline-block;
+  padding: 0 18px 0 8px;
+  border-right: 1px solid #dedee2;
+}
+.homePageModel .homePageModelRight .deviceContext .nameDevice .equTimes {
+  display: inline-block;
+  padding-left: 10px;
+}
+.homePageModel .homePageModelRight .alarmImg {
+  margin-top: 12px;
+  border: 1px solid #EEEEEE;
+}
+.homePageModel .homePageModelRight .alarmImg .alarmSatus {
+  display: flex;
+  align-items: center;
+  padding: 1% 0 1% 4%;
+}
+.homePageModel .homePageModelRight .alarmImg .alarmSatus .alarmSatusFont {
+  color: #274198;
+}
+.homePageModel .homePageModelRight .alarmImg .alarmSatus .alarmSatusBg {
+  display: inline-block;
+  width: 18px;
+  height: 16px;
+  background: url("../../style/ztt/imgs/alarmInfoBg.png") no-repeat;
+  background-size: 100% 100%;
+}
+.homePageModel .homePageModelRight .alarmImg .policeBtn {
+  width: 94%;
+  display: flex;
+  margin: 2% 4%;
+  border-radius: 4px;
+}
+.homePageModel .homePageModelRight .alarmImg .policeBtn .handler {
+  color: #2a3394;
+  border-bottom: 1px solid #e2e2e2;
+  padding: 2px 0;
+}
+.homePageModel .homePageModelRight .alarmImg .policeBtn .handler .hanleTime {
+  padding-right: 10px;
+}
+.homePageModel .homePageModelRight .alarmImg .policeBtn .handler .hanleName {
+  padding-left: 12px;
+  border-left: 1px solid #e2e2e2;
+}
+.homePageModel .homePageModelRight .alarmImg .policeBtn Button {
+  width: 26%;
+}
+.homePageModel .homePageModelRight .alarmImg .policeBtn Button:nth-child(1) {
+  background-color: #fa390d;
+  color: #fff;
+  border: none;
+  border-radius: 1px;
+}
+.homePageModel .homePageModelRight .alarmImg .policeBtn Button:nth-child(2) {
+  background-color: #ff7200;
+  color: #fff;
+  border: none;
+  border-radius: 1px;
+  margin-left: 10%;
+}
+/*# sourceMappingURL=homeModel.css.map */

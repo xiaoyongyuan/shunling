@@ -1,0 +1,84 @@
+.rolltack{
+  .tack-icon{
+    cursor: pointer;
+    font-size: 15px;
+  }
+  .task-title{
+    font-size: 15px;
+    padding: 4px 0;
+    .task-status{
+      padding-left: 30px;
+    }
+  }
+  .task-form{
+    padding-top: 20px;
+    display: flex;
+    .task-formBtn{
+      margin-left: 10%;
+      margin-top: 5px;
+    }
+  }
+    .task-context{
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      .empty{
+        padding-top: 50px;
+        width: 100%;
+        text-align: center;
+      }
+      .task-border{
+        border: 1px solid #cbcbcb;
+        padding: 10px 10px;
+        margin: 1vmax;
+        box-shadow: 4px 4px 5px #c3c1c1;
+        .task-title{
+          text-align: center;
+          position: relative;
+          .task-icon{
+            position: absolute;
+            top:10%;
+            right: 5%;
+          }
+        }
+        .task-img{
+          position: relative;
+          width: 100%;
+          height:221px;
+          padding-top:5px ;
+          text-align: center;
+          .scangif{
+            position: absolute;
+            top: 0;
+            left:0;
+            z-index:3;
+            width:270px;
+            height: 230px;
+          }
+          .scanno{
+            display: none;
+          }
+        }
+        .rollcallTime{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          padding: 20px 10px;
+        }
+        .rollcallBtn{
+          width: 100%;
+          text-align: center;
+          span{
+            display: inline-block;
+            width: 90%;
+            background-color: #5063ee;
+            color: #fff;
+            border-radius: 4px;
+            padding: 8px 0;
+            cursor: pointer;
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }

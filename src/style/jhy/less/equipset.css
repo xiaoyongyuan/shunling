@@ -1,0 +1,184 @@
+.equipset {
+  height: 100%;
+  padding: 20px 0 10px 20px;
+  position: relative;
+  background: #fff;
+}
+.equipset .formInfo {
+  background: #f8f8f8;
+  padding: 20px 0 0 0;
+}
+.equipset .topbtn {
+  margin-bottom: 20px;
+}
+.equipset .topbtn .ant-btn {
+  margin-left: 20px;
+}
+.equipset .topbtn .ant-btn:first-child {
+  margin-left: 0;
+}
+.equipset .onlyadd .baseInfo {
+  width: 250px;
+  line-height: 40px;
+  text-align: center;
+  padding: 0 16px;
+  border: 1px solid #006fe4;
+  color: #fff;
+  margin-bottom: 20px;
+  border-radius: 2px;
+  background: #006fe4;
+}
+.equipset .sliderWrap .ant-col .ant-form-item-control-wrapper .ant-col-sm-15 {
+  position: relative;
+}
+.equipset .sliderWrap .thresholdset,
+.equipset .sliderWrap .frozentime {
+  display: inline-block;
+  width: 90%;
+  margin-bottom: 0;
+}
+.equipset .sliderVal {
+  position: absolute;
+  display: inline-block;
+  width: 10%;
+  padding-left: 5px;
+}
+.equipset .definfo {
+  border: 1px solid #eeeeee;
+  background: #f8f8f8;
+}
+.equipset .definfo .infowrap {
+  width: 100%;
+}
+.equipset .definfo .infowrap .label {
+  text-align: right;
+  display: inline-block;
+  width: 25%;
+  margin-right: 20px;
+}
+.equipset .threshold {
+  border: 1px solid #eeeeee;
+  background: #f8f8f8;
+  width: 40%;
+}
+.equipset .threshold .thresholdtit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border-bottom: 1px solid #eeeeee;
+}
+.equipset .threshold .thresholesetWrap {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.equipset .threshold .thresholesetWrap .thresholdlabel {
+  border: 1px solid #eeeeee;
+  text-align: center;
+  width: 20%;
+  padding: 4px;
+}
+.equipset .threshold .thresholesetWrap .thresholdset {
+  width: 60%;
+}
+.equipset .threshold .thresholesetWrap .thresholdrest {
+  border: 1px solid #eeeeee;
+  width: 10%;
+  text-align: center;
+  padding: 4px;
+}
+.equipset .verhorcenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.equipset .ant-tabs-nav-container {
+  height: 40px !important;
+}
+.equipset .ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab {
+  color: #646464 !important;
+  background: #e5e5e5 !important;
+  height: 40px;
+  width: 250px;
+  text-align: center;
+}
+.equipset .ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab .baseInfo {
+  background: url('../imgs/baseinfonot.png') no-repeat 4px;
+  padding-left: 60px;
+}
+.equipset .ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab .camera {
+  background: url('../imgs/cameranot.png') no-repeat 4px;
+  padding-left: 60px;
+}
+.equipset .ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab .deftime {
+  background: url('../imgs/deftimenot.png') no-repeat 4px;
+  padding-left: 60px;
+}
+.equipset .ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab-active {
+  height: 40px;
+  color: #fff !important;
+  background: #006fe4 !important;
+}
+.equipset .ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab-active .baseInfo {
+  background: url('../imgs/baseinfo.png') no-repeat 4px;
+  padding-left: 60px;
+}
+.equipset .ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab-active .camera {
+  background: url('../imgs/camera.png') no-repeat 4px;
+  padding-left: 60px;
+}
+.equipset .ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab-active .deftime {
+  background: url('../imgs/deftime.png') no-repeat 4px;
+  padding-left: 60px;
+}
+.equipset .backdrop {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+.filed {
+  display: flex;
+  flex-direction: row;
+}
+.filed .defopt {
+  height: 576px;
+  border: 1px solid #eeeeee;
+  border-radius: 5px;
+  background: #f8f8f8;
+}
+.filed .defopt .listItemWrap {
+  width: 100%;
+}
+.filed .defopt .listItemWrap .optlabel,
+.filed .defopt .listItemWrap .optbtn {
+  padding: 8px 0;
+}
+.filed .defopt .listItemWrap .optlabel {
+  border-bottom: 1px solid #e8e8e8;
+}
+.filed .defopt .listItemWrap .optbtn .ant-btn {
+  margin-left: 10px;
+}
+.filed .defopt .listItemWrap .optbtn .ant-btn:first-of-type {
+  margin-left: 0;
+}
+.filed .defopt::before,
+.filed .defopt::after {
+  width: 0px;
+  height: 0px;
+  border-width: 12px;
+  border-style: solid;
+  border-color: transparent #f8f8f8 transparent transparent;
+  position: absolute;
+  content: ' ';
+  left: -22px;
+  top: 40px;
+}
+.filed .defopt::before {
+  border-color: transparent #eeeeee transparent transparent;
+  left: -24px;
+  top: 40px;
+}
+/*# sourceMappingURL=equipset.css.map */

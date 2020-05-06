@@ -1,0 +1,123 @@
+@import './loading.less';
+@import './reset.less';
+@height:100%;
+*,.ant-modal-body,.ant-modal{
+  font-family:'Microsoft YaHei';
+}
+.App{
+	height: @height;
+}
+.ant-pagination.PaginationRight{ //页面在右边显示
+  float: right;
+  margin:16px auto;
+}
+.ant-modal-close-x{
+  width: 38px!important;
+  height: 38px!important;
+  line-height: 38px!important;
+  color: #fff!important;
+}
+.ant-modal-close {
+  margin: 4px 4px;
+  background: #006ee2!important;
+}
+//表格隔行变色背景色
+.ant-table-tbody > tr:nth-child(even) {
+  background: #d0ecff;
+}
+.tableoption{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
+  span{
+    cursor: pointer;
+  }
+}
+.bluecolor{
+  color:#40a9ff;
+}
+.redcolor{
+  color:#f5222d;
+}
+.unwork{
+  color:#efefef;
+}
+.greencolor{
+  color:#1ECD6E;
+}
+.bluebg{
+  background:#40a9ff;
+}
+.redbg{
+  background:#f5222d;
+}
+.greenbg{
+  background:#1ECD6E;
+}
+.selectForm{ //左表单右新增
+    display: flex;
+    justify-content:space-between;
+  }
+/*状态——未生效*/
+.state-bg-not{
+  display:inline-block;
+  width: 80px;
+  text-align: center;
+  border-radius: 10px;
+  color: #fff;
+  background: #F76F49;
+}
+/*状态——正常*/
+.state-bg-normal{
+  display:inline-block;
+  width: 80px;
+  text-align: center;
+  border-radius: 10px;
+  color: #fff;
+  background: #1AA97B;
+}
+/*状态——弃用*/
+.state-bg-abandoning{
+  display:inline-block;
+  width: 80px;
+  text-align: center;
+  border-radius: 10px;
+  color: #fff;
+  background: #E84C3D;
+}
+/*按钮——弃用*/
+.btn-abandoning{
+  background-color: #E84C3D!important;
+  color: #fff!important;
+}
+/*按钮——绑定*/
+.btn-binding{
+  background-color: #F76F49!important;
+  color: #fff!important;
+  border: none!important;
+}
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar{
+  width: 8px;
+  height: 16px;
+  background-color: #F5F5F5;
+}
+
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track{
+  -webkit-box-shadow: inset 0 0 4px rgba(255,255,255,0.3);
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 4px rgba(255,255,255,0.3);
+  background-color: #c1c1c1;
+}
+.Main .Content{
+  background: #F8F8F8!important;
+  padding: 0!important;
+}

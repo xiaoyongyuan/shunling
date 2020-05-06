@@ -1,0 +1,750 @@
+.homePage {
+  display: flex;
+  flex-direction: column;
+  -moz-user-select: none;
+  /*火狐*/
+  -webkit-user-select: none;
+  /*webkit浏览器*/
+  -ms-user-select: none;
+  /*IE10*/
+  -khtml-user-select: none;
+  /*早期浏览器*/
+  user-select: none;
+}
+.homePage .unwork {
+  color: #B8B5BC;
+}
+.homePage ::-webkit-scrollbar {
+  width: 6px;
+  height: 10px;
+}
+.homePage ::-webkit-scrollbar-thumb {
+  width: 6px;
+  height: 6px;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 3px;
+}
+.homePage ::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0);
+}
+.homePage .leaflet-bar,
+.homePage .leaflet-control {
+  display: none;
+}
+.homePage .unhanle {
+  background-color: #006FE3;
+}
+.homePage .policebg {
+  background-color: #FF7200;
+}
+.homePage .videBor {
+  background: #ff7200;
+}
+.homePage .falsePolicebg {
+  background-color: #B28750;
+}
+.homePage .equNum {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.homePage .equNum .equ1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 22%;
+  height: 74px;
+  background: #fff;
+  color: #F83434;
+}
+.homePage .equNum .equ1 .equImg8 {
+  display: inline-block;
+  width: 46px;
+  height: 46px;
+  background: url("../../style/ztt/imgs/todayAlarm.png") no-repeat;
+  background-size: 100% 100%;
+}
+.homePage .equNum .equ1 .equContext {
+  display: flex;
+  flex-direction: column;
+  padding-left: 28px;
+}
+.homePage .equNum .equ1 .equContext .equBer {
+  font-size: 22px;
+  padding-right: 2px;
+}
+.homePage .equNum .equ1 .equContext .equipName {
+  font-weight: bold;
+  font-size: 15px;
+  padding-bottom: 4px;
+}
+.homePage .equNum .equ1 .equContext .equipTotal-today {
+  letter-spacing: 1px;
+}
+.homePage .equNum .equ {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 15%;
+  height: 74px;
+  background: #fff;
+}
+.homePage .equNum .equ .equColor1 {
+  color: #375BD1;
+}
+.homePage .equNum .equ .equColor2 {
+  color: #37D142;
+}
+.homePage .equNum .equ .equColor3 {
+  color: #656A7B;
+}
+.homePage .equNum .equ .equColor4 {
+  color: #006CFF;
+}
+.homePage .equNum .equ .equColor5 {
+  color: #FF7200;
+}
+.homePage .equNum .equ .equContext {
+  display: flex;
+  flex-direction: column;
+  padding-left: 26px;
+}
+.homePage .equNum .equ .equContext .equBer {
+  font-size: 22px;
+  padding-right: 2px;
+}
+.homePage .equNum .equ .equContext .equipName {
+  font-size: 15px;
+  font-weight: bolder;
+  padding-bottom: 4px;
+}
+.homePage .equNum .equ .equContext .equipTotal {
+  letter-spacing: 1px;
+}
+.homePage .equNum .equ .equContext .equipTotal-Handle {
+  color: #1877FF;
+  letter-spacing: 1px;
+}
+.homePage .equNum .equ .equContext .equipTotal-UHandle {
+  letter-spacing: 1px;
+}
+.homePage .equNum .equ .equImg1 {
+  display: inline-block;
+  width: 46px;
+  height: 46px;
+  background: url("../../style/ztt/imgs/Total.png") no-repeat;
+  background-size: 100% 100%;
+}
+.homePage .equNum .equ .equImg2 {
+  display: inline-block;
+  width: 46px;
+  height: 46px;
+  background: url("../../style/ztt/imgs/equipment.png") no-repeat;
+  background-size: 100% 100%;
+}
+.homePage .equNum .equ .equImg3 {
+  display: inline-block;
+  width: 46px;
+  height: 46px;
+  background: url("../../style/ztt/imgs/offline.png") no-repeat;
+  background-size: 100% 100%;
+}
+.homePage .equNum .equ .equImg4 {
+  display: inline-block;
+  width: 46px;
+  height: 46px;
+  background: url("../../style/ztt/imgs/processed.png") no-repeat;
+  background-size: 100% 100%;
+}
+.homePage .equNum .equ .equImg5 {
+  display: inline-block;
+  width: 46px;
+  height: 46px;
+  background: url("../../style/ztt/imgs/unhandled.png") no-repeat;
+  background-size: 100% 100%;
+}
+.homePage .computerRoom {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  background-color: #fff;
+  min-height: 54vh;
+}
+.homePage .computerRoom .cameraList {
+  width: 78%;
+}
+.homePage .computerRoom .cameraList .sketchMap {
+  display: flex;
+}
+.homePage .computerRoom .cameraList .sketchMap .roadImg {
+  width: 90px;
+  height: 310px;
+  background: url("../../style/ztt/imgs/road.png") no-repeat;
+  background-size: 100% 100%;
+  margin-top: 40px;
+}
+.homePage .computerRoom .cameraList .cameraList-title {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 20px;
+  color: #000;
+}
+.homePage .computerRoom .cameraList .cameraTitle {
+  display: flex;
+  align-items: center;
+}
+.homePage .computerRoom .cameraList .cameraTitle .cameraLogin {
+  display: inline-block;
+  width: 17px;
+  height: 20px;
+  background: url("../../style/ztt/imgs/cameraBg.png") no-repeat;
+  background-size: 100% 100%;
+}
+.homePage .computerRoom .cameraList .cameraTitle .cameraFont {
+  padding-left: 10px;
+  color: #1A3791;
+}
+.homePage .computerRoom .cameraList .videstyle {
+  margin-top: 16px;
+}
+.homePage .computerRoom .cameraList .videstyle .nodata {
+  width: 100%;
+  text-align: center;
+}
+.homePage .computerRoom .cameraList .videstyle .nodata img {
+  width: 70px;
+  height: 70px;
+}
+.homePage .computerRoom .cameraList .videstyle .videoMore .videoImg {
+  width: 100%;
+  height: 100%;
+  min-height: 14vh;
+}
+.homePage .computerRoom .cameraList .videstyle .videoMore .videoChange {
+  animation: heartbeat 1.5s infinite;
+  -webkit-animation: heartbeat 1.5s infinite;
+  position: relative;
+  filter: drop-shadow(0px 0px 20px #ff1414);
+  transform: rotate(45deg);
+}
+@keyframes heartbeat {
+  0% {
+    transform: scale(0.9, 0.9);
+    opacity: 1;
+  }
+  25% {
+    transform: scale(1, 1);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(0.9, 0.9);
+    opacity: 1;
+  }
+}
+.homePage .computerRoom .cameraList .videstyle .videoMore .borderBot .videoImg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.homePage .computerRoom .cameraList .videstyle .videoMore .borderBot {
+  position: relative;
+  min-height: 18vh;
+  max-height: 36vh;
+  margin: 10px 0;
+}
+.homePage .computerRoom .cameraList .videstyle .videoMore .borderBot .videoBtn {
+  width: 16%;
+  position: absolute;
+  top: 36%;
+  left: 40%;
+  cursor: pointer;
+}
+.homePage .computerRoom .cameraList .videstyle .videoMore .borderBot .broadcastBott {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 32px;
+  background-color: rgba(20, 39, 69, 0.9);
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+.homePage .computerRoom .cameraList .videstyle .videoMore .borderBot .broadcastBott .dateil {
+  color: #ff7200;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.homePage .computerRoom .cameraList .videstyle .videoMore .borderBot .broadcastBott .broCircle {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ff7200;
+}
+.homePage .computerRoom .cameraList .videstyle .videoMore .borderBot .broadcastBott .broFont {
+  color: #fff;
+  padding-left: 8px;
+}
+.homePage .computerRoom .computerRoom-context {
+  width: 100%;
+  background: #fff;
+  height: 61vh;
+}
+.homePage .computerRoom .computerRoom-context .RoomStatusLeft {
+  width: 20%;
+}
+.homePage .computerRoom .computerRoom-context .computerRoomStatus {
+  display: flex;
+  flex-direction: row;
+}
+.homePage .computerRoom .computerRoom-context .computerRoomStatus .RoomStatusLeft .roomAlarm {
+  display: flex;
+  align-items: center;
+  margin: 28px 55px;
+}
+.homePage .computerRoom .computerRoom-context .computerRoomStatus .RoomStatusLeft .roomAlarm .status1 {
+  color: #ff7200;
+  margin-left: 12px;
+}
+.homePage .computerRoom .computerRoom-context .computerRoomStatus .RoomStatusLeft .roomAlarm .status2 {
+  color: #006cff;
+  margin-left: 12px;
+}
+.homePage .computerRoom .computerRoom-context .computerRoomStatus .RoomStatusLeft .roomAlarm .status3 {
+  color: #686d7e;
+  margin-left: 12px;
+}
+.homePage .computerRoom .computerRoom-context .computerRoomStatus .RoomStatusLeft .roomAlarm .statusImg1 {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  background: url("../../style/ztt/imgs/alarmStatus.png") no-repeat;
+  background-size: 100% 100%;
+}
+.homePage .computerRoom .computerRoom-context .computerRoomStatus .RoomStatusLeft .roomAlarm .statusImg2 {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  background: url("../../style/ztt/imgs/noStatus.png") no-repeat;
+  background-size: 100% 100%;
+}
+.homePage .computerRoom .computerRoom-context .computerRoomStatus .RoomStatusLeft .roomAlarm .statusImg3 {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  background: url("../../style/ztt/imgs/offStatus.png") no-repeat;
+  background-size: 100% 100%;
+}
+.homePage .computerRoom .computerRoom-context .computerRoomStatus .computer {
+  width: 65%;
+}
+.homePage .computerRoom .computerRoom-context .computerRoom-title {
+  color: #213c95;
+  font-size: 18px;
+  margin: 15px 55px;
+}
+.homePage .computerRoom .computerRoom-camera {
+  width: 22%;
+  background-color: #f0f2f5;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+  height: 54vh;
+  position: absolute;
+  right: 0;
+  top: 0;
+  animation: myfirst 3s linear;
+  /*.fortification {
+        height: 135px;
+        background: #fff;
+        text-align: center;
+        margin-bottom: 4px;
+
+        .fortification-title {
+          display: flex;
+          align-items: center;
+          padding: 8px 0;
+
+          .videoImg {
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            background: url("../../style/ztt/imgs/alarmStatus.png") no-repeat;
+            background-size: 100% 100%;
+            margin-left: 20px;
+          }
+
+          .videoName {
+            color: #FF7E1D;
+            margin-left: 8px;
+            font-size: 15px;
+          }
+        }
+
+        .defended {
+          display: flex;
+          justify-content: center;
+
+          .defended-title {
+            width: 30%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+            .defended-name {
+              text-align: center;
+            }
+
+            .defendedBorder1 {
+              display: inline-block;
+              height: 3px;
+              margin: 4px 0;
+              cursor: pointer;
+            }
+
+            .defendedBorder2 {
+              display: inline-block;
+              height: 3px;
+              margin: 4px 0;
+              cursor: pointer;
+            }
+
+            .defendedBorder1bg {
+              background-color: #006CFF;
+            }
+
+            .defendedBorder1Color {
+              color: #006CFF;
+            }
+
+            .defendedBorder2bg {
+              background-color: #D3D3D3;
+            }
+
+            .defendedBorder2Color {
+              color: #D3D3D3;
+            }
+          }
+        }
+
+        .defendedBtn {
+          width: 40%;
+          height: 30px;
+          text-align: center;
+          border: none;
+          background-color: #006CFF;
+          color: #fff;
+          margin: 10px 0;
+          font-size: 14px;
+          cursor: pointer;
+        }
+
+        .defendedBtn1 {
+          width: 40%;
+          height: 30px;
+          text-align: center;
+          border: none;
+          background-color: #FF7200;
+          color: #fff;
+          margin: 10px 0;
+          font-size: 14px;
+          cursor: pointer;
+        }
+      }*/
+}
+@keyframes myfirst {
+  0% {
+    right: -20%;
+  }
+  50% {
+    right: -10%;
+  }
+  80% {
+    right: -2%;
+  }
+  100% {
+    right: 0;
+  }
+}
+.homePage .computerRoom .computerRoom-camera .video-camera {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  background: #fff;
+  margin-bottom: 4px;
+}
+.homePage .computerRoom .computerRoom-camera .video-camera .close {
+  margin: 5px 5px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #006fe3;
+}
+.homePage .computerRoom .computerRoom-camera .video-camera .videoCameraName {
+  display: flex;
+  align-items: center;
+}
+.homePage .computerRoom .computerRoom-camera .video-camera .videoCameraName .videoImg {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: url("../../style/ztt/imgs/alarmStatus.png") no-repeat;
+  background-size: 100% 100%;
+  margin-left: 20px;
+}
+.homePage .computerRoom .computerRoom-camera .video-camera .videoCameraName .videoName {
+  color: #FF7E1D;
+  margin-left: 8px;
+  font-size: 15px;
+}
+.homePage .computerRoom .computerRoom-camera .eqiIp {
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+  margin-bottom: 2px;
+}
+.homePage .computerRoom .computerRoom-camera .eqiIp .eqiIp-context1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  line-height: 26px;
+  background: #fff;
+  color: #2E4699;
+  padding-left: 20px;
+  font-size: 15px;
+}
+.homePage .computerRoom .computerRoom-camera .eqiIp .eqiIp-context {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  line-height: 26px;
+  background: #fff;
+  color: #2E4699;
+  padding-left: 20px;
+  font-size: 15px;
+}
+.homePage .computerRoom .computerRoom-camera .eqiIp .eqiIp-UHanld:nth-child(1) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.homePage .computerRoom .computerRoom-camera .eqiIp .eqiIp-UHanld {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  line-height: 26px;
+  background: #fff;
+  margin-left: 2px;
+  padding-left: 20px;
+  color: #2E4699;
+  font-size: 15px;
+}
+.homePage .computerRoom .computerRoom-camera .lastAlarm {
+  background-color: #fff;
+  padding: 18px 0;
+  height: 34.5vh;
+}
+.homePage .computerRoom .computerRoom-camera .lastAlarm .alarm-title {
+  display: flex;
+  align-items: center;
+}
+.homePage .computerRoom .computerRoom-camera .lastAlarm .alarm-title .videoImg {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: url("../../style/ztt/imgs/alarmStatus.png") no-repeat;
+  background-size: 100% 100%;
+  margin-left: 20px;
+}
+.homePage .computerRoom .computerRoom-camera .lastAlarm .alarm-title .videoName {
+  color: #FF7E1D;
+  margin-left: 8px;
+  font-size: 15px;
+}
+.homePage .computerRoom .computerRoom-camera .lastAlarm .alarmImg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.homePage .computerRoom .computerRoom-camera .lastAlarm .alarmImg .alarmVideo video {
+  width: 100%;
+  height: 13vh;
+  background: #7f7f7f;
+}
+.homePage .computerRoom .computerRoom-camera .lastAlarm .alarmImg .alarmVideo img {
+  height: 12vh;
+}
+.homePage .computerRoom .computerRoom-camera .lastAlarm .alarmImg .alarmVideo {
+  width: 63%;
+  margin: 10px 0;
+  position: relative;
+  height: 12vh;
+  border: 1px solid #d3d3d3;
+}
+.homePage .computerRoom .computerRoom-camera .lastAlarm .alarmImg .alarmVideo .alarmVideoBtn {
+  position: absolute;
+  top: 34%;
+  left: 42%;
+  width: 20%;
+  cursor: pointer;
+}
+.homePage .computerRoom .computerRoom-camera .lastAlarm .alarmImg .alarmVideo .alarmVideoBottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 32px;
+  background-color: rgba(20, 39, 69, 0.8);
+  display: flex;
+  align-items: center;
+}
+.homePage .computerRoom .computerRoom-camera .lastAlarm .alarmImg .alarmVideo .alarmVideoBottom .alarmVideoCircle {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #FF7200;
+  border-radius: 50%;
+  margin: 0 14px;
+}
+.homePage .computerRoom .computerRoom-camera .lastAlarm .alarmImg .alarmVideo .alarmVideoBottom .alarmVideoName {
+  color: #fff;
+  font-size: 14px;
+}
+.homePage .nodata {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+.homePage .alarminfor {
+  margin: 12px 0 15px 0;
+}
+.homePage .alarminfor .gutter-box {
+  cursor: pointer;
+}
+.homePage .alarminfor .swiper-container {
+  margin-top: 10px;
+  position: relative;
+}
+.homePage .alarminfor .swiper-container .morePolice {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 999;
+  background: #006CFF;
+  color: #fff;
+  padding: 1% 1%;
+}
+.homePage .alarminfor .swiper-container .morePolice .policeMore {
+  padding: 20% 0;
+}
+.homePage .alarminfor .swiper-container .swiper-slide {
+  position: relative;
+  min-height: 14vh;
+  max-height: 18vh;
+  border: 1px solid #d0c9c9;
+  background: #EEEEEE;
+  cursor: pointer;
+}
+.homePage .alarminfor .swiper-container .swiper-slide .alarmVideoBtn {
+  position: absolute;
+  top: 34%;
+  left: 42%;
+  width: 16%;
+  cursor: pointer;
+}
+.homePage .alarminfor .swiper-container .swiper-slide .policeStatus {
+  display: inline-block;
+  padding: 5px 10px;
+  color: #fff;
+  font-size: 13px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  position: absolute;
+  left: 0;
+  bottom: 70%;
+}
+.homePage .alarminfor .swiper-container .swiper-slide .policeStatus .policeStatusCicle {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin-right: 5px;
+}
+.homePage .alarminfor .swiper-container .swiper-slide .alarmTitle {
+  position: absolute;
+  right: 0;
+  top: 16%;
+  display: inline-block;
+  padding: 4px 8px;
+  color: #fff;
+  background-color: rgba(10, 51, 73, 0.8);
+  border-radius: 20px;
+  font-size: 13px;
+}
+.homePage .alarminfor .swiper-container .swiper-slide .alarmTitle .alarminforCirle {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #ff7200;
+  border-radius: 50%;
+}
+.homePage .alarminfor .swiper-container .swiper-slide .alarmTitle .policeTimes {
+  padding-left: 4px;
+}
+.homePage .alarminfor .swiper-container .swiper-slide .alarminforBg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 28px;
+  background-color: rgba(20, 39, 69, 0.9);
+  display: flex;
+  align-items: center;
+}
+.homePage .alarminfor .swiper-container .swiper-slide .alarminforBg .alarminforFont {
+  padding-left: 10px;
+  color: #fff;
+  font-size: 14px;
+}
+.homePage .alarminfor .swiper-container .swiper-slide img {
+  min-height: 14vh;
+  max-height: 18vh;
+}
+@media screen and (max-width: 1600px) {
+  .homePage .alarminfor .computerRoom-context {
+    height: 85.5vh !important;
+  }
+  .homePage .alarminfor .RoomStatusLeft {
+    width: 24% !important;
+  }
+  .homePage .alarminfor .computer {
+    width: 62% !important;
+  }
+  .homePage .alarminfor .computerRoom-camera {
+    height: 85vh !important;
+  }
+  .homePage .alarminfor .lastAlarm {
+    height: 42vh !important;
+  }
+  .homePage .alarminfor .policeMore {
+    padding: 8% 0 !important;
+    font-size: 10px;
+  }
+  .homePage .alarminfor .morePolice {
+    padding: 0.5% 1% !important;
+  }
+  .homePage .alarminfor .iconRight {
+    font-size: 10px;
+  }
+}
+/*# sourceMappingURL=index.css.map */

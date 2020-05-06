@@ -1,0 +1,31 @@
+.netset {
+  padding: 30px;
+  background: #f8f8f8;
+}
+.netset .ant-form-item {
+  margin-bottom: 0;
+}
+.netset .netcard {
+  display: inline-block;
+  background: #006cff;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 2px;
+  margin-bottom: 10px;
+}
+.netset .optwrap {
+  width: 100%;
+  text-align: center;
+}
+.netset .optwrap .cancle {
+  margin-left: 50px;
+  background: #a4a7b1;
+  color: #fff;
+}
+.netset .ant-form-item-children .input {
+  background: #f3f3f5 !important;
+}
+.netset .cardtwo {
+  margin-top: 20px;
+}
+/*# sourceMappingURL=netset.css.map */

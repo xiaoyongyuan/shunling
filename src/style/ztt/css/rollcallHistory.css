@@ -1,0 +1,32 @@
+.rollcallhistory {
+  padding: 10px;
+}
+.rollcallhistory .gutter-example {
+  padding-top: 20px;
+}
+.rollcallhistory .gutter-example .gutter-box {
+  display: flex;
+  border: 1px solid #C0C0C0;
+  border-radius: 4px;
+}
+.rollcallhistory .gutter-example .gutter-box .rollHist-img {
+  width: 50%;
+  margin: 2%;
+}
+.rollcallhistory .gutter-example .gutter-box .rollHist-img img {
+  width: 100%;
+  height: 100%;
+}
+.rollcallhistory .gutter-example .gutter-box .rollHist-con {
+  margin: 8px;
+  width: 45%;
+}
+.rollcallhistory .gutter-example .gutter-box .rollHist-con .roll-context {
+  padding: 6% 0;
+  font-size: 15px;
+}
+.rollcallhistory .rollPage {
+  padding: 20px 0;
+  text-align: center;
+}
+/*# sourceMappingURL=rollcallHistory.css.map */

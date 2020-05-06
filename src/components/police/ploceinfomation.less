@@ -1,0 +1,621 @@
+.ploceinfomation{
+  .nodataEmpty{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 5%;
+  }
+  .selectBorder{
+    border: 1px solid #ff7200!important;
+  }
+  .policeList .picImg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+  }
+  .policeList{
+    position: relative;
+    min-height: 16vh;
+    max-height: 18vh;
+    background: #EEEEEE;
+  }
+  .ant-checkbox-wrapper{
+    color: #fff;
+  }
+  .ant-checkbox{
+    border-radius: 50%!important;
+  }
+  background-color: #f0f2f5;
+  .unhanle{
+    background-color: #006FE3;
+  }
+  .policebg{
+    background-color: #FF7200;
+  }
+  .falsePolicebg{
+    background-color: #B28750;
+  }
+  .policeName{
+    color: #fff;
+    padding-left: 8px;
+    font-size: 13px;
+  }
+  .pagination{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+  }
+  .nodata{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+  }
+  .ploceinfomation-query{
+    height: 60px;
+    background-color: #fff;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    .choiceEqu{
+      padding-left: 10px;
+    }
+    .title-checkPolice{
+      background-color: #FF7200;
+      padding: 4px 16px;
+      border-radius: 20px;
+    }
+    .title-checkReport{
+      background-color: #B28750;
+      padding: 4px 16px;
+      border-radius: 20px;
+    }
+    .select-camera{
+      margin-left: 13px;
+      color: #4159a1;
+      font-family: 黑体;
+    }
+    .select-form{
+      margin-left: 20px;
+      width: 60%;
+    }
+    .falsealarm{
+      height: 100%;
+      .alert-col{
+        display: flex;
+        justify-content: center;
+        .alert{
+          height: 30px;
+          width: 60%;
+          background-color: #ff7200;
+          border-radius: 60px 60px 60px 60px;
+          .zdupdate-word{
+            line-height: 30px;
+            color: #fff;
+            font-family: 黑体;
+            font-size: 14px;
+            margin-left: 15px;
+            float: left;
+          }
+          .cicrle{
+            width: 17px;
+            height: 17px;
+            line-height: 17px;
+            background-color: #fff;
+            border-radius: 50%;
+            float: right;
+            margin: 7px;
+            .cicrle-icon{
+              color: #ff7200;
+            }
+          }
+        }
+        .falsealert{
+          height: 30px;
+          width: 60%;
+          background-color: #8580c1;
+          border-radius: 60px 60px 60px 60px;
+          .zdupdate-word{
+            line-height: 30px;
+            color: #fff;
+            font-family: 黑体;
+            font-size: 14px;
+            margin-left: 15px;
+            float: left;
+          }
+          .cicrle{
+            width: 17px;
+            height: 17px;
+            line-height: 17px;
+            background-color: #fff;
+            border-radius: 50%;
+            float: right;
+            margin: 7px;
+            .cicrle-icon{
+              color: #8580c1;
+            }
+          }
+        }
+        .xualert{
+          height: 30px;
+          width: 60%;
+          background-color: #b28850;
+          border-radius: 60px 60px 60px 60px;
+          .zdupdate-word{
+            line-height: 30px;
+            color: #fff;
+            font-family: 黑体;
+            font-size: 14px;
+            margin-left: 15px;
+            float: left;
+          }
+          .cicrle{
+            width: 17px;
+            height: 17px;
+            line-height: 17px;
+            background-color: #fff;
+            border-radius: 50%;
+            float: right;
+            text-align: center;
+            margin: 7px;
+            .cicrle-icon{
+              color: #b28850;
+            }
+          }
+        }
+      }
+
+    }
+    .select-time{
+      color: #4159a1;
+      font-family: 黑体;
+    }
+    .select-time-form{
+      margin-left: 20px;
+      color: #4159a1;
+      font-family: 黑体;
+    }
+    .query-btn{
+      margin-left: 20px;
+      background-color: #006fe4;
+      border: none;
+    }
+  }
+  .ploceinfomation-main{
+    height: 405px;
+    background-color: #fff;
+    margin-top: 15px;
+    padding-top: 3px;
+    .pageLeft{
+      line-height: 400px;
+      .anticon{
+        width: 50px;
+        height: 50px;
+        line-height: 55px;
+        text-align: center;
+        border-radius: 50%;
+        background-color: #EEEEEE;
+        font-size: 26px;
+        cursor: pointer;
+      }
+      .anticon:hover{
+          color: #fff;
+          background-color: #2360db;
+      }
+    }
+    .main-left{
+      height: 100%;
+      width: 74%;
+      float: left;
+      .updown-left{
+        margin: 0 10px;
+        width: 20px;
+        height: 20px;
+        background-color: #006fe3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+      }
+      .main-left-L{
+        height: 360px;
+        padding: 20px 20px 0 20px;
+        .img-up-fu img{
+          width: 100%;
+          height: 58%;
+        }
+        .img-up-fu{
+          position: relative;
+          .alarmImg{
+            width:100%;
+            height:360px;
+            position: relative;
+            .nodata{
+              width: 74px;
+              height: 105px;
+              position: absolute;
+              top:20%;
+              left: 40%;
+            }
+          }
+          .alarmImg canvas{
+            width: 100%;
+            height: 100%;
+            border: 1px solid #F0F2F5;
+          }
+          .alarmImg img{
+            position: absolute;
+            left: 0;
+            width: 100%;
+            height: 100%;
+          }
+          .smallImg{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            display: flex;
+            background-color: rgba(14,18,23,0.7);
+            padding: 3px 0;
+            .everyImg{
+              width: 50px;
+              height: 34px;
+              padding: 2px;
+              margin: 2px 3px;
+              display: flex;
+            }
+            .everyImg img{
+              width: 100%;
+              height: 100%;
+              cursor: pointer;
+            }
+          }
+          .img-up-fu-word{
+            position: absolute;
+            top: 10%;
+            right: 1px;
+            background-color: rgba(20, 39, 69, 0.5);
+            display: flex;
+            align-items: center;
+            padding: 4px 7px;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+            font-size: 14px;
+            .img-up-fu-word-span{
+              color: #fff;
+              font-family: 黑体;
+              margin-left: 10px;
+            }
+            .circle{
+              width: 10px;
+              height: 10px;
+              border-radius: 50%;
+              background-color: #ff7200;
+              margin-left: 5px;
+            }
+          }
+        }
+      }
+      .main-left-R video{
+        background-color: #020202;
+      }
+      .main-left-R{
+        position: relative;
+        height: 378px;
+        padding:20px 20px 0 0;
+        .picture{
+          display: inline-block;
+          position: absolute;
+          top:0;
+          left: 0;
+          width: 100%;
+          height: 360px;
+          border: 3px solid red;
+          z-index: 999;
+        }
+      }
+      .updown Button{
+        display: flex;
+        border: none;
+      }
+      .updown{
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        font-size: 13px;
+        color: #b9b9b9;
+      }
+    }
+    .main-right{
+      float: right;
+      width: 25%;
+      height: 100%;
+      .up{
+        background-color: #fff;
+        width: 100%;
+        font-weight: bolder;
+        font-size: 15px;
+        .alarmInfor{
+          color:#294499;
+          display: flex;
+          align-items: center;
+          .alarmInforBg{
+            display: inline-block;
+            width: 18px;
+            height: 17px;
+            background: url("../../style/ztt/imgs/alarmInfoBg.png") no-repeat;
+            background-size: 100% 100%;
+          }
+        }
+        .equipName{
+          margin: 8px 0;
+          width: 90%;
+          height: 30px;
+          color: #4159a1;
+          background-color: #f3f3f5;
+          display: flex;
+          align-items: center;
+          .flashing{
+            width: 100%;
+            .light{
+              display: inline-block;
+              padding: 6px 10px;
+              background-color: #006FE3;
+              font-size: 14px;
+              color: #fff;
+              cursor: pointer;
+              border-radius: 4px;
+            }
+          }
+          .equipNamefiled{
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .switchfiled{
+              margin-left: 4%;
+            }
+          }
+          .equipName-left{
+            height: 100%;
+            border-right: #e4e4e5 solid 1px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .switchfiled{
+              margin-left: 4%;
+            }
+          }
+          .equipName-right{
+            height: 100%;
+            display: flex;
+            align-items: center;
+            .switchfiled{
+              margin-left: 4%;
+            }
+            .equipName-right-word{
+              margin-left: 20px;
+            }
+          }
+          .equipName-right-caralarm{
+            height: 100%;
+            background-color: #f3f3f5;
+            display: flex;
+            align-items: center;
+            color: #cbcbcb;
+            .equipName-right-word{
+              margin-left: 20px;
+            }
+          }
+        }
+      }
+      .down{
+        margin-top: 4px;
+        width: 90%;
+        .equipHandleTitle{
+          display: flex;
+          justify-content: space-between;
+          font-size: 15px;
+          font-weight: bolder;
+          padding: 14px 0;
+          .alarmsta{
+            color: #203c96;
+            display: flex;
+            align-items: center;
+            .equimentBg{
+              display: inline-block;
+              width: 18px;
+              height: 17px;
+              background: url("../../style/ztt/imgs/equimentBg.png") no-repeat;
+              background-size: 100% 100%;
+            }
+          }
+          .addDuplicate{
+            color:#006de7;
+          }
+        }
+        .equipHandle{
+          background-color: #f3f3f5;
+          height: 56px;
+          display: flex;
+          align-items: center;
+          .policeBtn{
+            color: #fff;
+            margin-left: 20%;
+            padding: 0 16%;
+            border: none;
+          }
+          .policq{
+            background-color: #fb380c;
+          }
+          .policex{
+            background-color: #ff7100;
+          }
+        }
+        .alarmcl{
+          width: 90px;
+          height: 90px;
+          margin: 10px auto;
+          border-right: #ededed 1px solid;
+          .alarmcl-img{
+            width: 100%;
+            height: 60%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          .alarmcl-word{
+            width: 100%;
+            height: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 黑体;
+            color: #006fe4;
+          }
+        }
+        .alarmq{
+          width: 75%;
+          height: 35px;
+          background-color: #ff7200;
+          margin: 12px auto;
+          color: #fff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+        }
+        .alarmx{
+          width: 75%;
+          height: 35px;
+          background-color: #b28850;
+          margin: 12px auto;
+          color: #fff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .ploceinfomation-update{
+    height: 60px;
+    background-color: #fff;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    .updata-word{
+      margin-left: 13px;
+      margin-top: 10px;
+      color: #4159a1;
+      font-family: 黑体;
+      font-size: 14px;
+      float: left;
+    }
+    .updata-Num{
+      float: left;
+      margin-left: 30px;
+      width: 60px;
+      height: 35px;
+      background-color: #f3f3f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #4159a1;
+      font-family: 黑体;
+    }
+    .zdupdate-col{
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      .zdupdate{
+        width: 90px;
+        height: 25px;
+        background-color: #006fe4;
+        border-radius:  25px ;
+        margin-right: 30px;
+        .zdupdate-word{
+          line-height: 25px;
+          color: #fff;
+          font-family: 黑体;
+          font-size: 13px;
+          margin-left: 5px;
+          float: left;
+        }
+        .cicrle{
+          width: 15px;
+          height: 15px;
+          line-height: 15px;
+          background-color: #fff;
+          border-radius: 50%;
+          float: right;
+          margin: 5px;
+          .cicrle-icon{
+            color: #006fe4;
+          }
+        }
+      }
+    }
+  }
+  .gutter-row{
+    background-color: #fff;
+    padding: 20px 0;
+    border: 1px solid #F8F8F8;
+    .gutter-box{
+      position: relative;
+      cursor: pointer;
+      .policeStatus{
+        display: inline-block;
+        padding: 5px 10px;
+        color: #fff;
+        font-size: 13px;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius:  20px;
+        position: absolute;
+        left: 0;
+        bottom: 70%;
+        .policeStatusCicle{
+          display: inline-block;
+          width: 10px;
+          height: 10px;
+          border-radius: 50%;
+          background-color: #fff;
+          margin-right: 5px;
+        }
+      }
+      .policeNikName{
+        position: absolute;
+        right: 0;
+        bottom: 70%;
+        background-color: rgba(10,51,73,0.8);
+        padding: 3px 6px;
+        color: #fff;
+        border-radius: 20px;
+        font-size: 13px;
+        .policeCircle{
+          display: inline-block;
+          width: 10px;
+          height: 10px;
+          border-radius: 50%;
+          background-color: #FF7200;
+          margin-right: 5px;
+        }
+      }
+      .policeBottom{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 28px;
+        background-color: rgba(19,36,64,0.8);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+  }
+}

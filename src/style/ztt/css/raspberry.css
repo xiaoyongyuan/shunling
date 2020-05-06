@@ -1,0 +1,18 @@
+.raspberry {
+  padding: 30px;
+  background-color: #fff;
+}
+.raspberry .rasBtn {
+  margin-bottom: 20px;
+  float: right;
+  z-index: 99;
+}
+.raspberry .operationBtn {
+  margin: 0 10px;
+  color: #006EF3;
+  cursor: pointer;
+}
+.raspberry .equiment {
+  background: red;
+}
+/*# sourceMappingURL=raspberry.css.map */

@@ -1,0 +1,22 @@
+.patrolrecord {
+  padding: 10px;
+}
+.patrolrecord .recordBtn {
+  margin: 0 10px;
+}
+.patrolrecord .noPass {
+  background-color: red;
+  border: 1px solid red;
+}
+.patrolrecord .noPassColor {
+  color: red;
+}
+.patrolrecord .ppic {
+  width: 120px;
+  height: 60px;
+}
+.patrolrecord .ppic img {
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=patrolrecord.css.map */

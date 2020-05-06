@@ -1,0 +1,439 @@
+@media only screen and (max-width: 1300px) {
+  .Login .logoBor .logoBg .login_pro .loginFrame {
+    position: relative;
+    margin-top: 30px;
+    padding: 12px 30px;
+  }
+  .Login .logoBor .logoBg .login_pro .ant-form-item {
+    margin-bottom: 20px;
+  }
+  .Login .logoBor .logoBg .login_pro .logoForm {
+    padding-top: 12px;
+  }
+  .Login .logoBor .logoBg .login_pro .logoForm input {
+    font-size: 18px;
+    height: 40px;
+  }
+  .Login .logoBor .logoBg .login_pro .logoForm input:-webkit-autofill {
+    -webkit-text-fill-color: #ededed !important;
+    background-color: transparent;
+    background-image: none;
+    transition: background-color 50000s ease-in-out 0s;
+  }
+  .Login .logoBor .logoBg .login_pro .logoForm .logoBtn {
+    margin-top: 12px;
+    font-size: 18px !important;
+    letter-spacing: 10px;
+    height: 45px!important;
+  }
+  .Login .logoBor .logoBg .gztitle {
+    letter-spacing: 5px!important;
+    font-size: 30px!important;
+  }
+  .Login .logoBor .logoBg .gztitleeng {
+    font-size: 16px!important;
+    margin-top: 8px!important;
+  }
+  .uselogtitle {
+    letter-spacing: 5px;
+    font-size: 22px !important;
+    margin-bottom: 15px !important;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .Login .logoBor .logoBg .login_pro .loginFrame {
+    width: 90%;
+    margin-left: 0;
+  }
+  .Login .logoBor .logoBg .login_pro .logtittop {
+    width: 90%;
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .Login .logoBor .logoBg .tranfpro {
+    display: none !important;
+  }
+  .Login .logoBor .logoBg .login_pro {
+    width: 90%;
+  }
+  .Login .logoBor .logoBg .login_pro .loginFrame {
+    width: 100%;
+    margin-left: 0;
+  }
+  .Login .logoBor .logoBg .login_pro .logtittop {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+.Login {
+  font-family: 'Microsoft YaHei';
+}
+.Login .login_title {
+  width: 10%;
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}
+.Login .login_title img {
+  width: 100%;
+  min-width: 150px;
+}
+.Login .logoBor {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+.Login .logoBor .logoBg {
+  width: 100%;
+  height: 100%;
+  background: url("../../style/imgs/login2bg.png") center no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Login .logoBor .logoBg .tranfpro {
+  position: relative;
+  width: 60%;
+  display: block;
+}
+.Login .logoBor .logoBg .tranfpro .tranf4 {
+  position: relative;
+  width: 80%;
+  top: 8%;
+  left: 8%;
+}
+.Login .logoBor .logoBg .tranfpro .tranf4 img {
+  width: 100%;
+  height: 100%;
+}
+.Login .logoBor .logoBg .tranfpro .tranf4 .imgtran4 {
+  animation: imgfore linear 8s infinite;
+  transform: translate(50%, 50%);
+}
+.Login .logoBor .logoBg .tranfpro .tranf4 .imgtran3 {
+  animation: imgthree linear 7s infinite;
+  transform: translate(50%, 50%);
+}
+.Login .logoBor .logoBg .tranfpro .tranf4 .imgtran2 {
+  animation: imgtwo linear 6s infinite;
+  transform: translate(50%, 50%);
+}
+.Login .logoBor .logoBg .tranfpro .tranf4 .imgtran1 {
+  transform-style: preserve-3d;
+  perspective: 150px;
+  animation: imgone linear 6s infinite;
+  transform: translate(50%, 50%);
+}
+.Login .logoBor .logoBg .tranfpro .tranf4 .tranf3 {
+  position: absolute;
+  width: 90%;
+  top: 5%;
+  left: 5%;
+}
+.Login .logoBor .logoBg .tranfpro .tranf4 .tranf3 .tranf2 {
+  position: absolute;
+  width: 90%;
+  top: 5%;
+  left: 5%;
+}
+.Login .logoBor .logoBg .tranfpro .tranf4 .tranf3 .tranf2 .tranf1 {
+  position: absolute;
+  width: 90%;
+  top: 5%;
+  left: 5%;
+}
+@keyframes imgfore {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes imgthree {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes imgtwo {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes imgone {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.Login .logoBor .login_pro {
+  width: 40%;
+  height: auto;
+}
+.Login .logoBor .login_pro .loginFrame {
+  position: relative;
+  width: 76%;
+  margin-left: 20px;
+  margin-top: 30px;
+  border: 3px solid #096ab5;
+  padding: 48px 50px;
+}
+.Login .logoBor .login_pro .loginFrame input {
+  background-color: rgba(12, 81, 142, 0.3);
+  border: 2px solid #0d6cba;
+  font-size: 20px;
+  height: 50px;
+  padding: 6px 40px;
+  color: #d6e9fc;
+}
+.Login .logoBor .login_pro .loginFrame input::placeholder {
+  color: #c7d8eb;
+}
+.Login .logoBor .login_pro .loginFrame .anticon {
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 50px;
+  margin: 5px 5px 0 0;
+}
+.Login .logoBor .login_pro .loginFrame .ant-form-item {
+  margin-bottom: 30px;
+}
+.Login .logoBor .login_pro .loginFrame .logbeforer,
+.Login .logoBor .login_pro .loginFrame .logbeforel {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.Login .logoBor .login_pro .loginFrame .logbeforel:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-width: 6px;
+  border-style: solid;
+  top: -3px;
+  left: -3px;
+  border-color: #f98d01 transparent transparent #f98d01;
+}
+.Login .logoBor .login_pro .loginFrame .logbeforel::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-width: 6px;
+  border-style: solid;
+  top: -3px;
+  right: -3px;
+  border-color: #f98d01 #f98d01 transparent transparent;
+}
+.Login .logoBor .login_pro .loginFrame .logbeforer:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-width: 6px;
+  border-style: solid;
+  bottom: -3px;
+  left: -3px;
+  border-color: transparent transparent #f98d01 #f98d01;
+}
+.Login .logoBor .login_pro .loginFrame .logbeforer::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-width: 6px;
+  border-style: solid;
+  bottom: -3px;
+  right: -3px;
+  border-color: transparent #f98d01 #f98d01 transparent;
+}
+.Login .logoBor .login_pro .loginFrame .logoForm {
+  padding-top: 15px;
+}
+.Login .logoBor .login_pro .loginFrame .logoForm input:-webkit-autofill {
+  -webkit-text-fill-color: #ededed !important;
+  background-image: none;
+  transition: background-color 50000s ease-in-out 0s;
+}
+.Login .logoBor .login_pro .loginFrame .logoForm .logoBtn {
+  width: 100%;
+  height: 50px;
+  background: #006dff;
+  border: none;
+  border-radius: 1px;
+  margin-top: 13px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+.Login .logoBor .login_pro p {
+  color: #d6e9fc;
+  text-align: center;
+}
+.Login .logoBor .login_pro .logtittop {
+  width: 76%;
+  margin-left: 20px;
+}
+.Login .logoBor .login_pro .uselogtitle {
+  letter-spacing: 5px;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+.Login .logoBor .login_pro .gztitle {
+  letter-spacing: 8px;
+  font-size: 35px;
+}
+.Login .logoBor .login_pro .gztitleeng {
+  font-size: 18px;
+  text-transform: Uppercase;
+  margin-top: 13px;
+}
+.spanlit {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-left: 4px;
+  background-color: #1987cd;
+}
+.spnifdiv {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+}
+@keyframes xs {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.dotting {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  animation: doc 5s infinite step-start both;
+}
+.dottty {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  animation: dot 5s infinite step-start both;
+}
+@keyframes dot {
+  0% {
+    box-shadow: none;
+    display: block;
+  }
+  7% {
+    box-shadow: 10px 0 #1987cd;
+  }
+  14% {
+    box-shadow: 10px 0 #1987cd, 25px 0 #1987cd;
+  }
+  21% {
+    box-shadow: 10px 0 #1987cd, 25px 0 #1987cd, 40px 0 #1987cd;
+  }
+  27% {
+    box-shadow: 10px 0 #1987cd, 25px 0 #1987cd, 40px 0 #1987cd, 55px 0 #1987cd;
+  }
+  35% {
+    box-shadow: 10px 0 #1987cd, 25px 0 #1987cd, 40px 0 #1987cd, 55px 0 #1987cd, 70px 0 #1987cd;
+  }
+  42% {
+    box-shadow: 10px 0 #1987cd, 25px 0 #1987cd, 40px 0 #1987cd, 55px 0 #1987cd, 70px 0 #1987cd, 85px 0 #1987cd;
+  }
+  49% {
+    box-shadow: 10px 0 #1987cd, 25px 0 #1987cd, 40px 0 #1987cd, 55px 0 #1987cd, 70px 0 #1987cd, 85px 0 #1987cd, 100px 0 #1987cd;
+  }
+  56% {
+    box-shadow: 10px 0 #1987cd, 25px 0 #1987cd, 40px 0 #1987cd, 55px 0 #1987cd, 70px 0 #1987cd, 85px 0 #1987cd, 100px 0 #1987cd, 115px 0 #1987cd;
+  }
+  63% {
+    box-shadow: 10px 0 #1987cd, 25px 0 #1987cd, 40px 0 #1987cd, 55px 0 #1987cd, 70px 0 #1987cd, 85px 0 #1987cd, 100px 0 #1987cd, 115px 0 #1987cd, 130px 0 #1987cd;
+  }
+  70% {
+    box-shadow: 10px 0 #1987cd, 25px 0 #1987cd, 40px 0 #1987cd, 55px 0 #1987cd, 70px 0 #1987cd, 85px 0 #1987cd, 100px 0 #1987cd, 115px 0 #1987cd, 130px 0 #1987cd, 145px 0 #1987cd;
+  }
+  77% {
+    box-shadow: 10px 0 #1987cd, 25px 0 #1987cd, 40px 0 #1987cd, 55px 0 #1987cd, 70px 0 #1987cd, 85px 0 #1987cd, 100px 0 #1987cd, 115px 0 #1987cd, 130px 0 #1987cd, 145px 0 #1987cd, 160px 0 #1987cd;
+  }
+  84% {
+    box-shadow: 10px 0 #1987cd, 25px 0 #1987cd, 40px 0 #1987cd, 55px 0 #1987cd, 70px 0 #1987cd, 85px 0 #1987cd, 100px 0 #1987cd, 115px 0 #1987cd, 130px 0 #1987cd, 145px 0 #1987cd, 160px 0 #1987cd, 175px 0 #1987cd;
+  }
+  91% {
+    box-shadow: 10px 0 #1987cd, 25px 0 #1987cd, 40px 0 #1987cd, 55px 0 #1987cd, 70px 0 #1987cd, 85px 0 #1987cd, 100px 0 #1987cd, 115px 0 #1987cd, 130px 0 #1987cd, 145px 0 #1987cd, 160px 0 #1987cd, 175px 0 #1987cd, 190px 0 #1987cd;
+  }
+  100% {
+    box-shadow: 10px 0 #1987cd, 25px 0 #1987cd, 40px 0 #1987cd, 55px 0 #1987cd, 70px 0 #1987cd, 85px 0 #1987cd, 100px 0 #1987cd, 115px 0 #1987cd, 130px 0 #1987cd, 145px 0 #1987cd, 160px 0 #1987cd, 175px 0 #1987cd, 190px 0 #1987cd, 205px 0 #1987cd;
+  }
+}
+@keyframes doc {
+  1% {
+    box-shadow: none;
+  }
+  7% {
+    box-shadow: -10px 0 #1987cd;
+  }
+  14% {
+    box-shadow: -10px 0 #1987cd, -25px 0 #1987cd;
+  }
+  21% {
+    box-shadow: -10px 0 #1987cd, -25px 0 #1987cd, -40px 0 #1987cd;
+  }
+  27% {
+    box-shadow: -10px 0 #1987cd, -25px 0 #1987cd, -40px 0 #1987cd, -55px 0 #1987cd;
+  }
+  35% {
+    box-shadow: -10px 0 #1987cd, -25px 0 #1987cd, -40px 0 #1987cd, -55px 0 #1987cd, -70px 0 #1987cd;
+  }
+  42% {
+    box-shadow: -10px 0 #1987cd, -25px 0 #1987cd, -40px 0 #1987cd, -55px 0 #1987cd, -70px 0 #1987cd, -85px 0 #1987cd;
+  }
+  49% {
+    box-shadow: -10px 0 #1987cd, -25px 0 #1987cd, -40px 0 #1987cd, -55px 0 #1987cd, -70px 0 #1987cd, -85px 0 #1987cd, -100px 0 #1987cd;
+  }
+  56% {
+    box-shadow: -10px 0 #1987cd, -25px 0 #1987cd, -40px 0 #1987cd, -55px 0 #1987cd, -70px 0 #1987cd, -85px 0 #1987cd, -100px 0 #1987cd, -115px 0 #1987cd;
+  }
+  63% {
+    box-shadow: -10px 0 #1987cd, -25px 0 #1987cd, -40px 0 #1987cd, -55px 0 #1987cd, -70px 0 #1987cd, -85px 0 #1987cd, -100px 0 #1987cd, -115px 0 #1987cd, -130px 0 #1987cd;
+  }
+  70% {
+    box-shadow: -10px 0 #1987cd, -25px 0 #1987cd, -40px 0 #1987cd, -55px 0 #1987cd, -70px 0 #1987cd, -85px 0 #1987cd, -100px 0 #1987cd, -115px 0 #1987cd, -130px 0 #1987cd, -145px 0 #1987cd;
+  }
+  77% {
+    box-shadow: -10px 0 #1987cd, -25px 0 #1987cd, -40px 0 #1987cd, -55px 0 #1987cd, -70px 0 #1987cd, -85px 0 #1987cd, -100px 0 #1987cd, -115px 0 #1987cd, -130px 0 #1987cd, -145px 0 #1987cd, -160px 0 #1987cd;
+  }
+  84% {
+    box-shadow: -10px 0 #1987cd, -25px 0 #1987cd, -40px 0 #1987cd, -55px 0 #1987cd, -70px 0 #1987cd, -85px 0 #1987cd, -100px 0 #1987cd, -115px 0 #1987cd, -130px 0 #1987cd, -145px 0 #1987cd, -160px 0 #1987cd, -175px 0 #1987cd;
+  }
+  91% {
+    box-shadow: -10px 0 #1987cd, -25px 0 #1987cd, -40px 0 #1987cd, -55px 0 #1987cd, -70px 0 #1987cd, -85px 0 #1987cd, -100px 0 #1987cd, -115px 0 #1987cd, -130px 0 #1987cd, -145px 0 #1987cd, -160px 0 #1987cd, -175px 0 #1987cd, -190px 0 #1987cd;
+  }
+  100% {
+    box-shadow: -10px 0 #1987cd, -25px 0 #1987cd, -40px 0 #1987cd, -55px 0 #1987cd, -70px 0 #1987cd, -85px 0 #1987cd, -100px 0 #1987cd, -115px 0 #1987cd, -130px 0 #1987cd, -145px 0 #1987cd, -160px 0 #1987cd, -175px 0 #1987cd, -190px 0 #1987cd, -205px 0 #1987cd;
+  }
+}
+/*# sourceMappingURL=index.css.map */

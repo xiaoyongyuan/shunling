@@ -1,0 +1,11 @@
+.userInfo {
+  padding: 20px;
+  background-color: #fff;
+}
+.userInfo .addbtn {
+  background: #006cff;
+  padding: 5px 20px;
+  color: #fff;
+  box-sizing: content-box;
+}
+/*# sourceMappingURL=userinfo.css.map */

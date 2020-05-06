@@ -1,0 +1,40 @@
+.rolltack .tack-icon {
+  cursor: pointer;
+  font-size: 15px;
+}
+.rolltack .task-title {
+  font-size: 15px;
+  padding: 4px 0;
+}
+.rolltack .task-title .task-status {
+  padding-left: 30px;
+}
+.rolltack .task-form {
+  padding-top: 20px;
+  display: flex;
+}
+.rolltack .task-form .task-formBtn {
+  margin-left: 10%;
+  margin-top: 5px;
+}
+.rolltack .task-context {
+  padding-top: 20px;
+}
+.rolltack .task-context .task-border {
+  width: 18%;
+  border: 1px solid #cbcbcb;
+}
+.rolltack .task-context .task-border .task-title {
+  text-align: center;
+  position: relative;
+}
+.rolltack .task-context .task-border .task-title .task-icon {
+  position: absolute;
+  top: 10%;
+  right: 5%;
+}
+.rolltack .task-context .task-border .task-img {
+  width: 94%;
+  height: 200px;
+}
+/*# sourceMappingURL=rolltack.css.map */

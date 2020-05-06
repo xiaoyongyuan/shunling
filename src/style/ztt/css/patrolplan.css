@@ -1,0 +1,63 @@
+.patrolPlan .ant-card-head-title {
+  color: red;
+}
+.patrolPlan .card-center .plan-card {
+  border-radius: 4px;
+}
+.patrolPlan .card-center .plan-context {
+  border: 2px solid #e9e8e5 !important;
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+.patrolPlan .card-center .plan-context .plan-circle {
+  width: 26%;
+  padding-left: 6%;
+}
+.patrolPlan .card-center .plan-context .plan-circle .bg1 {
+  background: #5DCB9A;
+}
+.patrolPlan .card-center .plan-context .plan-circle .bg2 {
+  background: #FB7575;
+}
+.patrolPlan .card-center .plan-context .plan-circle .bg3 {
+  background: #F7C35D;
+}
+.patrolPlan .card-center .plan-context .plan-circle .bg4 {
+  background: #99BB33;
+}
+.patrolPlan .card-center .plan-context .plan-circle .bg5 {
+  background: #93ABFA;
+}
+.patrolPlan .card-center .plan-context .plan-circle .bg6 {
+  background: #FDD000;
+}
+.patrolPlan .card-center .plan-context .plan-circle .plan-title {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+}
+.patrolPlan .card-center .plan-context .plan-time {
+  width: 32%;
+}
+.patrolPlan .card-center .plan-context .plan-time .planTime-nike {
+  padding: 10% 0;
+}
+.patrolPlan .card-center .plan-context .plan-oper {
+  width: 30%;
+}
+.patrolPlan .card-center .plan-context .plan-oper .plan-icon {
+  cursor: pointer;
+}
+.patrolPlan .card-center .plan-context .plan-oper .plan-edit {
+  color: #0ab00d;
+}
+.patrolPlan .card-center .plan-context .plan-oper .plan-delete {
+  padding-left: 18%;
+  color: red;
+}
+/*# sourceMappingURL=patrolplan.css.map */

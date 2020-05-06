@@ -1,0 +1,206 @@
+.homePageModel{
+  display: flex;
+  flex-direction: row;
+  padding-top: 30px;
+  .homePageModelLeft{
+    border: 2px solid #EEEEEE;
+    margin-right: 10px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    .homeageImg{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      .homeImg{
+        width: 400px;
+        margin-top: 2px;
+        height: 300px;
+        position: relative;
+        #homeCanvas{
+          width: 100%;
+          height: 100%;
+          border: 1px solid #eeeeee;
+        }
+        .nodata{
+          position: absolute;
+          width: 70px;
+          height: 70px;
+          top:34%;
+          left: 30%;
+        }
+      }
+      .homeImg video{
+        width: 98%;
+        height: 100%;
+        background-color:#142745;
+        margin-left: 10px;
+      }
+    }
+    .nextHome{
+      display: flex;
+      float: right;
+      margin: 9px 8px;
+      .nextUp{
+        color: #B4B4B4;
+        padding: 0 4px;
+      }
+      .arrLeft{
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        text-align: center;
+        background-color: #B3B3B3;
+        border-radius: 50%;
+        margin:0 8px;
+        cursor: pointer;
+        .cicrle-icon{
+          color: #fff;
+        }
+      }
+      .arrRight{
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        line-height: 20px;
+        background-color: #B3B3B3;
+        border-radius: 50%;
+        cursor: pointer;
+        .cicrle-icon{
+          color: #fff;
+        }
+      }
+    }
+  }
+  .homePageModelRight{
+    width: 480px;
+    .sector{
+      color: #262d8d;
+      padding: 4px 8px;
+      margin: 0 4px;
+      border-radius: 30px;
+    }
+    .deviceContext{
+      padding: 10px;
+      border: 2px solid #EEEEEE;
+      .devicetitle{
+        display: flex;
+        align-items: center;
+        .deviceBg{
+          display: inline-block;
+          width: 18px;
+          height: 16px;
+          background: url("../../style/ztt/imgs/alarmInfoBg.png") no-repeat;
+          background-size: 100% 100%;
+        }
+        .deviceFont{
+          color: #2c459a;
+        }
+      }
+      .sectorBtn{
+        display: inline-block;
+        width: 14px;
+        height: 14px;
+        line-height: 14px;
+        background-color: #fff;
+        border-radius: 50%;
+        margin-left: 8px;
+        .cicrle-icon{
+          color: #056BDD;
+          font-size: 10px;
+        }
+      }
+      .typePolice{
+        display: flex;
+        justify-content: space-between;
+      }
+      .typePolice span:nth-child(1){
+        padding-left: 8px;
+      }
+      .typePolice span:nth-child(3){
+        padding-right: 30px;
+      }
+      .nameDevice{
+        width: 100%;
+        margin: 8px 0;
+        padding: 5px 0;
+        background: #F3F3F5;
+        color: #262D8D;
+        border: 1px solid #E4E4E6;
+        .manAlarm{
+          border-right:1px solid #dedee2;
+          border-left:1px solid #dedee2;
+          padding: 0 33px;
+          color: #32419C;
+        }
+        .carBg{
+          color: #C0C0C2;
+        }
+        .equName{
+          display: inline-block;
+          padding:0 18px 0 8px;
+          border-right:1px solid #dedee2;
+        }
+        .equTimes{
+          display: inline-block;
+          padding-left: 10px;
+        }
+      }
+    }
+    .alarmImg{
+      margin-top: 12px;
+      border: 1px solid #EEEEEE;
+      .alarmSatus{
+        display: flex;
+        align-items: center;
+        padding: 1% 0 1% 4%;
+        .alarmSatusFont{
+          color: #274198;
+        }
+        .alarmSatusBg{
+          display: inline-block;
+          width: 18px;
+          height: 16px;
+          background: url("../../style/ztt/imgs/alarmInfoBg.png") no-repeat;
+          background-size: 100% 100%;
+        }
+      }
+      .policeBtn{
+        width: 94%;
+        display: flex;
+        margin: 2% 4%;
+        border-radius: 4px;
+        .handler{
+          color: #2a3394;
+          border-bottom: 1px solid #e2e2e2;
+          padding: 2px 0;
+          .hanleTime{
+            padding-right: 10px;
+          }
+          .hanleName{
+            padding-left: 12px;
+            border-left: 1px solid #e2e2e2;
+          }
+        }
+      }
+      .policeBtn Button{
+        width: 26%;
+      }
+      .policeBtn Button:nth-child(1){
+        background-color: #fa390d;
+        color: #fff;
+        border: none;
+        border-radius: 1px;
+      }
+      .policeBtn Button:nth-child(2){
+        background-color: #ff7200;
+        color: #fff;
+        border: none;
+        border-radius: 1px;
+        margin-left: 10%;
+      }
+    }
+  }
+}

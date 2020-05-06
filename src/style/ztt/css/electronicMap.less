@@ -1,0 +1,77 @@
+.electronicMap{
+  position: relative;
+  .leaflet-bar,.leaflet-control{
+    display: none;
+  }
+  .info{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 6px 10px;
+    background-color: #fff;
+    box-shadow: 1px  2px  5px  6px  rgba(0,0,0,0.1);
+    z-index: 999;
+    line-height: 20px;
+  }
+  .container{
+    width: 100%;
+    height: 92vh;
+  }
+  .input-card{
+    font-size: 15px;
+    position: absolute;
+    bottom: 1%;
+    right: 0;
+    width: 22rem;
+    border-radius: 10px;
+    padding: 16px 0 0 16px;
+    background-color: #fff;
+    box-shadow: 1px  2px  5px  6px  rgba(0,0,0,0.1);
+    z-index: 999;
+    .equipmentCon{
+      display: flex;
+      flex-direction: row;
+      flex-wrap:wrap;
+      margin:10px 0;
+      .cameraName{
+        display: inline-block;
+        border: 1px solid #27a6f7;
+        border-radius: 4px;
+        padding: 6px 10px;
+        margin: 5px 8px;
+      }
+    }
+    .input-text{
+      border-radius: 30px;
+      border: none;
+      padding: 4px 10px;
+      outline: none;
+      cursor: pointer;
+      margin: 0 5px;
+    }
+    .cameraNum{
+     padding-bottom: 14px;
+    }
+    .input-item{
+      margin: 12px 0;
+      .btn{
+        width: 7rem;
+        margin: 2px 3px;
+        background-color:#fff ;
+        color: #27a6f7;
+        border: 1px solid #27a6f7;
+        font-size: 14px;
+        padding: 6px 0;
+        outline: none;
+        cursor: pointer;
+        border-radius: 30px;
+      }
+      .input-text{
+        width: 4rem;
+        margin-right:1rem;
+      }
+    }
+  }
+}

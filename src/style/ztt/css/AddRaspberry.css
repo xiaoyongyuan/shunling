@@ -1,0 +1,55 @@
+.addRaspberry {
+  padding: 20px 0 10px 20px;
+  background-color: #fff;
+}
+.addRaspberry .setting {
+  margin-top: 20px;
+}
+.addRaspberry .setting .ant-tabs-nav-container {
+  height: 40px!important;
+}
+.addRaspberry .setting .ant-tabs-tab {
+  color: #646464 !important;
+  background: #e5e5e5 !important;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  height: 40px;
+  width: 250px;
+  text-align: center;
+}
+.addRaspberry .setting .ant-tabs-tab .camera {
+  width: 50px;
+  height: 40px;
+  background: url('../../../style/jhy/imgs/cameranot.png') no-repeat 4px;
+}
+.addRaspberry .setting .ant-tabs-tab .deftime {
+  width: 50px;
+  height: 40px;
+  background: url('../../../style/jhy/imgs/deftimenot.png') no-repeat 4px;
+}
+.addRaspberry .setting .ant-tabs-tab-active {
+  height: 40px;
+  color: #fff !important;
+  background: #006fe4 !important;
+}
+.addRaspberry .setting .ant-tabs-tab-active .camera {
+  width: 50px;
+  height: 40px;
+  background: url('../../../style/jhy/imgs/camera.png') no-repeat 4px;
+}
+.addRaspberry .setting .ant-tabs-tab-active .deftime {
+  width: 50px;
+  height: 40px;
+  background: url('../../../style/jhy/imgs/deftime.png') no-repeat 4px;
+}
+.addRaspberry .setting .ant-tabs-tab-active .upload {
+  width: 50px;
+  height: 40px;
+  background: url('../../../style/jhy/imgs/upload.png') no-repeat 4px;
+}
+.addRaspberry .setting .ant-tabs-tab-active .binding {
+  width: 50px;
+  height: 40px;
+  background: url('../../../style/jhy/imgs/binding.png') no-repeat 4px;
+}
+/*# sourceMappingURL=AddRaspberry.css.map */
